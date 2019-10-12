@@ -6,3 +6,6 @@
 *.json
 *.exe
 *.class
+*.jpeg
+*.png
+*.gif
