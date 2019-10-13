@@ -1,12 +1,10 @@
-import java.util.Queue;
-import java.util.LinkedList;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileNotFoundException;
 import java.io.BufferedReader;
 import java.io.PrintWriter;
 
-class FirstComeFirstServe {
+class FCFS {
     public static void main(String[] args) {
 
         // declarations //
@@ -16,16 +14,16 @@ class FirstComeFirstServe {
         int startTime = 0, endTime = 0;
         double t1;
         String size = args[0];
-        String ith = args[1];
-        System.out.println(size + " " + ith);
+
         // print header //
+        System.out.printf("\n                     Test Case = %s data points                  \n", size);
         System.out.println("-----------------------------------------------------------------");
         System.out.println("|   Name   |   Start Time   |   End Time    |       Status      |");
         System.out.println("-----------------------------------------------------------------");
 
         try {
             // declarations //
-            File input = new File("jobs/jobs_" + size + "-" + ith + ".txt");
+            File input = new File("../jobs/job_" + size + ".txt");
             BufferedReader reader = new BufferedReader(new FileReader(input));
 
             // log start time //
@@ -51,7 +49,7 @@ class FirstComeFirstServe {
         }
 
         // run job and output to file //
-        runToFile(args);
+        //runToFile(args);
     }
 
     public static void runToFile(String[] size) {
@@ -65,6 +63,7 @@ class FirstComeFirstServe {
             File input = new File("jobs/jobs_" + size[0] + "-" + size[1] + ".txt");
             PrintWriter wr = new PrintWriter(output);
             BufferedReader reader = new BufferedReader(new FileReader(input));
+
             // Print Header for Schedule Table
             wr.write("-----------------------------------------------------------------\n");
             wr.write("|   Name   |   Start Time   |   End Time    |       Status      |\n");

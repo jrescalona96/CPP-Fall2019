@@ -6,9 +6,15 @@ class GenerateData {
 
         // read size from console
         int size = 0;
+        ArrayList<String> jobs;
+        ArrayList<String> times;
         Random rand = new Random();
+
+        //initialize containers and parse string argument size
         try {
             size = Integer.parseInt(args[0]);
+            jobs = new ArrayList<String>(size);
+            times = new ArrayList<String>(size);
         } catch (Exception e) {
             System.err.println("Error in Job generation :" + e.getClass());
             throw new IllegalArgumentException("Invalid input");
@@ -16,20 +22,30 @@ class GenerateData {
 
         // create file
         try {
-            for (int j = 0; j < 3; j++) {
-                File file = new File("jobs/jobs_" + size + "-" + (j + 1) + ".txt");
+                File file = new File("../jobs/job_" + size + ".txt");
                 PrintWriter wr = new PrintWriter(file);
                 String name = "Job";
                 String burstTime = "";
-                // generate numbers and write to file
+
+                // generate numbers
                 for (int i = 0; i < size; i++) {
                     name = "Job" + (i + 1) + "\n";
                     burstTime = Integer.toString(rand.nextInt(80) + 20);
-                    wr.write(name);
-                    wr.write(burstTime + "\n");
+                    jobs.add(name);
+                    times.add(burstTime);
                 }
+                
+                //shuffle array
+                Collections.shuffle(jobs);
+                Collections.shuffle(times);
+
+                //write to file
+                for (int i = 0; i < jobs.size(); i++) {
+                    wr.write(jobs.get(i));
+                    wr.write(times.get(i) + "\n");
+                }
+
                 wr.close();
-            }
         } catch (Exception e) {
             System.err.println("Error in Input file creation :" + e.getClass());
         }
