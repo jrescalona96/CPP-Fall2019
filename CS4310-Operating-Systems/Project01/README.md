@@ -79,7 +79,10 @@ You can implement the algorithms in your choice of data structures based on the 
 >>
 >> sort ArrayList
 >
-> iterate over HashMap using ArrayList as key 
+> Iterate over ArrayList to use val as key for each HashMap.get(key)
+>> let jobName = HashMap.get(key)
+>>
+>> let jobTime = key
 >>
 >> let timeToFinish = burst time of job
 >>
