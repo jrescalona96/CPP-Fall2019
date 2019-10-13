@@ -48,8 +48,9 @@ You can implement the algorithms in your choice of data structures based on the 
 
 
 # Submission Instructions:
-* turn in the following @blackboard.cpp.edu  after the completion of all three parts, part 1, part 2 and part 3
+* turn in the following on @blackboard.cpp.edu  after the completion of all three parts, part 1, part 2 and part 3
 > (1) four program (your choice of programming language with proper documentation) files 
+>
 > (2) this document (complete all the answers)
 ***
 # Pseudocode
