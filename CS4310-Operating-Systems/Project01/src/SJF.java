@@ -27,10 +27,10 @@ class SJF {
 
               
             // print header //
-            System.out.printf("\n                     Test Case = %s data points                  \n", size);
-            System.out.println("-----------------------------------------------------------------");
-            System.out.println("|   Name   |   Start Time   |   End Time    |       Status      |");
-            System.out.println("-----------------------------------------------------------------");
+            System.out.printf("\n                         Test Case = %s data points                  \n", size);
+            System.out.println("    -----------------------------------------------------------------");
+            System.out.println("    |   Name   |   Start Time   |   End Time    |       Status      |");
+            System.out.println("    -----------------------------------------------------------------");
   
             // log start time //
             t1 = System.nanoTime() / 1000000;
@@ -46,20 +46,20 @@ class SJF {
             String status = "Completed @ ";
             int startTime = 0, endTime = 0;
             Integer timeToFinish;
-            for(Integer i : timesList) {
-                jobName = unsortedJobsMap.get(i);
-                timeToFinish = i;
+            for(Integer t : timesList) {
+                jobName = unsortedJobsMap.get(t);
+                timeToFinish = t;
                 startTime = endTime;
                 endTime = startTime + timeToFinish;
                 status += endTime;
-                System.out.printf("|   %-7s|        %-8d|      %-9d| %-18s|\n", jobName, startTime, endTime, status);
+                System.out.printf("    |   %-7s|        %-8d|      %-9d| %-18s|\n", jobName, startTime, endTime, status);
                 status = "Completed @ "; 
             }
 
-            System.out.println("-----------------------------------------------------------------");
+            System.out.println("    -----------------------------------------------------------------");
 
             // log and print end time //
-            System.out.println("Total Time Elapse = " + (System.nanoTime() / 1000000 - t1) + "ms\n");
+            System.out.println("    Total Time Elapse = " + (System.nanoTime() / 1000000 - t1) + "ms\n");
 
         } catch (Exception e) {
             System.err.println(e.getClass());

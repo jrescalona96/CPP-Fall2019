@@ -16,10 +16,10 @@ class FCFS {
         String size = args[0];
 
         // print header //
-        System.out.printf("\n                     Test Case = %s data points                  \n", size);
-        System.out.println("-----------------------------------------------------------------");
-        System.out.println("|   Name   |   Start Time   |   End Time    |       Status      |");
-        System.out.println("-----------------------------------------------------------------");
+        System.out.printf("\n                        Test Case = %s data points                  \n", size);
+        System.out.println("    -----------------------------------------------------------------");
+        System.out.println("    |   Name   |   Start Time   |   End Time    |       Status      |");
+        System.out.println("    -----------------------------------------------------------------");
 
         try {
             // declarations //
@@ -35,13 +35,13 @@ class FCFS {
                 startTime = endTime;
                 endTime = startTime + timeToFin;
                 status += endTime;
-                System.out.printf("|   %-7s|        %-8d|      %-9d| %-18s|\n", jobName, startTime, endTime, status);
+                System.out.printf("    |   %-7s|        %-8d|      %-9d| %-18s|\n", jobName, startTime, endTime, status);
                 status = "Completed @ ";
             }
-            System.out.println("-----------------------------------------------------------------");
+            System.out.println("    -----------------------------------------------------------------");
 
             // log and print end time //
-            System.out.println("Total Time Elapse = " + (System.nanoTime() / 1000000 - t1) + "ms\n");
+            System.out.println("    Total Time Elapse = " + (System.nanoTime() / 1000000 - t1) + "ms\n");
 
             reader.close();
         } catch (Exception e) {
