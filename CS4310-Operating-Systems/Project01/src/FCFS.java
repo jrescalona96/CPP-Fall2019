@@ -36,7 +36,8 @@ class FCFS {
                 startTime = endTime;
                 endTime = startTime + timeToFin;
                 status += endTime;
-                System.out.printf("    |   %-7s|        %-8d|      %-9d| %-18s|\n", jobName, startTime, endTime, status);
+                System.out.printf("    |   %-7s|        %-8d|      %-9d| %-18s|\n", jobName, startTime, endTime,
+                        status);
                 status = "Completed @ ";
             }
             System.out.println("    -----------------------------------------------------------------");
