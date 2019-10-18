@@ -55,37 +55,45 @@ class FCFS {
     }
 
     public static void runToFile(String size) {
-        String jobName = "";
-        int timeToFin = 0;
-        int startTime = 0;
-        int endTime = 0;
-        String status = "Completed @ ";
-        try {
-            File output = new File("result_" + size + ".txt");
-            File input = new File("../jobs/job_" + size + ".txt");
-            PrintWriter wr = new PrintWriter(output);
-            BufferedReader reader = new BufferedReader(new FileReader(input));
+        CSVWriter csvWriter = new CSVWriter("../data/", String.format("data" + size));
+        csvWriter.write("kamikazee");
+        csvWriter.write("king");
+        csvWriter.write("pin");
+        // String jobName = "";
+        // int timeToFin = 0;
+        // int startTime = 0;
+        // int endTime = 0;
+        // String status = "Completed @ ";
+        // try {
+        // File output = new File("result_" + size + ".txt");
+        // File input = new File("../jobs/job_" + size + ".txt");
+        // PrintWriter wr = new PrintWriter(output);
+        // BufferedReader reader = new BufferedReader(new FileReader(input));
 
-            // Print Header for Schedule Table
-            wr.write("      -----------------------------------------------------------------\n");
-            wr.write("      |   Name   |   Start Time   |   End Time    |       Status      |\n");
-            wr.write("      -----------------------------------------------------------------\n");
+        // // Print Header for Schedule Table
+        // wr.write("
+        // -----------------------------------------------------------------\n");
+        // wr.write(" | Name | Start Time | End Time | Status |\n");
+        // wr.write("`
+        // -----------------------------------------------------------------\n");
 
-            while ((jobName = reader.readLine()) != null) {
-                timeToFin = Integer.parseInt(reader.readLine());
-                startTime = endTime;
-                endTime = startTime + timeToFin;
-                status += endTime;
-                wr.write(String.format("       |   %-7s|        %-8d|      %-9d| %-18s|\n", jobName, startTime, endTime,
-                        status));
-                status = "Completed @ ";
-            }
-            wr.write("      -----------------------------------------------------------------\n");
-            wr.flush();
-            reader.close();
-            wr.close();
-        } catch (Exception e) {
-            System.err.println("File error: " + e.getClass());
-        }
+        // while ((jobName = reader.readLine()) != null) {
+        // timeToFin = Integer.parseInt(reader.readLine());
+        // startTime = endTime;
+        // endTime = startTime + timeToFin;
+        // status += endTime;
+        // wr.write(String.format(" | %-7s| %-8d| %-9d| %-18s|\n", jobName, startTime,
+        // endTime,
+        // status));
+        // status = "Completed @ ";
+        // }
+        // wr.write("
+        // -----------------------------------------------------------------\n");
+        // wr.flush();
+        // reader.close();
+        // wr.close();
+        // } catch (Exception e) {
+        // System.err.println("File error: " + e.getClass());
+        // }
     }
 }
