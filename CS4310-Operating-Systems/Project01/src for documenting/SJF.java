@@ -11,22 +11,20 @@ class SJF {
         String size = args[0];
         String jobName = ""; // temporarily hold job name
         Integer burstTime = 0; // temporarily hold job time
-        String status = "Completed @ ";
-        int startTime = 0, endTime = 0;
         Map<String, Integer> unsortedJobsMap = new HashMap<String, Integer>();
         ArrayList<Integer> completion = new ArrayList<Integer>();
-
         // read and store data
         try {
-            File input = new File("../jobs/job_" + size + ".txt");
+            File input = new File("../jobs/job_" + size +"_"+args[1]+ ".txt");
             BufferedReader reader = new BufferedReader(new FileReader(input));
 
             // read and store jobs into tempHashMap
             while ((jobName = reader.readLine()) != null) {
                 burstTime = Integer.parseInt(reader.readLine()); // read time
-                unsortedJobsMap.put(jobName,burstTime);// add to Map
+                unsortedJobsMap.put(jobName, burstTime); // add to Map*************************************************************************
             }
             reader.close(); // close reader
+
 
             // log start time //
             long t1 = System.currentTimeMillis();
@@ -49,28 +47,27 @@ class SJF {
                     }
                 }
             }
-            // print header //
-            System.out.printf("\n                         Test Case = %s data points                  \n", size);
-            System.out.println("    -----------------------------------------------------------------");
-            System.out.println("    |   Name   |   Start Time   |   End Time    |       Status      |");
-            System.out.println("    -----------------------------------------------------------------");
+            
+            // System.out.printf("\nTest Case = %s data points\n", size);
+            // System.out.println("Name  S.T.  E.T.  Stat");
 
             // run jobs //
-            Integer timeToFinish; 
+            String status = "@";
+            int startTime = 0, endTime = 0;
+            Integer timeToFinish;
             for (String name : namesList) {
-                jobName = name; // get job name from hash map
-                timeToFinish = unsortedJobsMap.get(name);; //  set time to finish
-                startTime = endTime;  // set start time to previous end time
-                endTime = startTime + timeToFinish; // set end time to previous end time + burst time
-                status += endTime; //add time to completion string
-                // print results //
-                System.out.printf("    |   %-7s|        %-8d|      %-9d| %-18s|\n", jobName, startTime, endTime,
-                        status); 
-                status = "Completed @ "; // reset status string
-                completion.add(endTime); // add completion time to arrayList
+                jobName = name;
+                timeToFinish = unsortedJobsMap.get(name);
+                startTime = endTime;
+                endTime = startTime + timeToFinish;
+                status += endTime;
+                //System.out.printf("%-9s%-6d%-6d%-6s\n", jobName, startTime, endTime, status);
+                // reset status
+                status = "@";
+                completion.add(endTime);
             }
 
-            System.out.println("    -----------------------------------------------------------------");
+            // System.out.println("    -----------------------------------------------------------------");
 
             //compute mean turn around time
             double sum = 0;
@@ -78,9 +75,9 @@ class SJF {
                 sum+=i;
             }
             double mean = sum/Integer.parseInt(size);
-            
             // log and print end time //
-             System.out.printf("Mean Turnaround Time= %.2f ms,\nTotal Time Elapse = %d ms\n", mean , System.currentTimeMillis() - t1);
+            //System.out.printf("\nMean Turnaround Time= %.2f ms\n", mean);
+            System.out.println(mean);
 
         } catch (Exception e) {
             System.err.println(e.getClass());

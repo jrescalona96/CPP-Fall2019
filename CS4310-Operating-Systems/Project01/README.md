@@ -74,31 +74,43 @@ You can implement the algorithms in your choice of data structures based on the 
 > > >
 > > > let status = endTime
 > > >
+> > > add endtime to array
+> > >
+> > > average array to compute for mean turn around time
+> > >
 > > > print job details as row in Schedule Table
 
 ## ShortestJobFirst
 
 > startTime = 0, endtime = 0
 >
-> read and store jobs into HashMap using **TIME as KEY**
+> read and store jobs into HashMap
 >
-> > store values to ArrayList
+> > store values to timesList
 > >
 > > sort ArrayList
+> > 
+> > sort timesList
+> > 
+> > create a namesList of names according to sorted timesList
 >
-> Iterate over ArrayList to use val as key for each HashMap.get(key)
+> iterate over HashMap using namesList
 >
-> > let jobName = HashMap.get(key)
+> > let jobName = name from namesList
 > >
-> > let jobTime = key
+> > let jobTime = HashMap(name)
 > >
-> > let timeToFinish = burst time of job
+> > let timeToFinish = jobTime
 > >
 > > let startTime = endTime;
 > >
 > > let endTime = startTime + timeToFinish
 > >
 > > let status = endTime
+> >
+> > add endtime to array
+> > 
+> > average array to compute for mean turn around time
 > >
 > > print job details as row in Schedule Table
 
@@ -114,8 +126,14 @@ You can implement the algorithms in your choice of data structures based on the 
 > >
 > > pop burstTime
 > >
-> > let burstTime = burstTime - slice
+> > let timeLeft = burstTime - slice
+> >
+> > startTime = endTime
+> >
+> > endTime = startTime + timeUsed
 > >
 > > if burstTime > 0, push to Queue
 > >
-> > log results
+> > else push time to results array
+> >
+> > log results then average array

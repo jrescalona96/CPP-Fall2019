@@ -9,3 +9,5 @@
 *.jpeg
 *.png
 *.gif
+*.class
+*.xlsx

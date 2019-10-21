@@ -5,10 +5,8 @@ import java.io.FileNotFoundException;
 import java.util.*;
 import java.util.Queue;
 
-class RR2 {
+class RR5 {
     public static void main(String[] args) {
-
-        // declarations //
         String jobName = "";
         Integer burstTime;
         int size = Integer.parseInt(args[0]);
@@ -17,7 +15,7 @@ class RR2 {
 
         // read and store data
         try {
-            File input = new File("../jobs/job_" + size + ".txt");
+            File input = new File("../jobs/job_" + size +"_"+args[1]+ ".txt");
             BufferedReader reader = new BufferedReader(new FileReader(input));
             // read and store jobs into Queues
             while ((jobName = reader.readLine()) != null) {
@@ -33,20 +31,17 @@ class RR2 {
     }   
 
     public static void runScheduler(Queue<String> nameQueue, Queue<Integer> timeQueue, int size) {
-        
-        // declarations //
-        String jobName = "";
-        Integer burstTime;
-        String status = "";
-        int startTime = 0, endTime = 0, timeLeft = 0, timeUsed = 0;
-        final int SLICE = 2;
         ArrayList<Integer> completion = new ArrayList<Integer>();
         
-        // print header //
-        System.out.printf("\n                         Test Case = %s data points                  \n", size);
-        System.out.println("    -----------------------------------------------------------------");
-        System.out.println("    |   Name   |   Start Time   |   End Time    |       Status      |");
-        System.out.println("    -----------------------------------------------------------------");
+        // System.out.printf("\nTest Case = %s data points\n", size);
+        // System.out.println("Name  S.T.  E.T.  Stat");
+
+        String jobName = "";
+        Integer burstTime;
+
+        String status = "";
+        int startTime = 0, endTime = 0, timeLeft = 0, timeUsed = 0;
+        final int SLICE = 5;
 
         // log start time //
         long t1 = System.currentTimeMillis();
@@ -63,27 +58,27 @@ class RR2 {
             timeLeft = burstTime - SLICE;
 
             // set start and end times
-            timeUsed = burstTime - timeLeft; //set timeUsed = burstTime - remaning time
-            startTime = endTime;  // set start time to previous end time
-            endTime = startTime + timeUsed; // track endTime using time used per process
+            timeUsed = burstTime - timeLeft;
 
-            // test if job is completed //
-            if (timeLeft > 0) { 
+            startTime = endTime;
+            endTime = startTime + timeUsed;
+
+            // test if job is completed
+            if (timeLeft > 0) {
                 nameQueue.add(jobName);
                 timeQueue.add(timeLeft);
                 status = "";
-            // else add time to ArrayList the set status string //
             } else {
                 completion.add(endTime);
-                status = "Completed @ " + endTime;
+                status = "@" + endTime;
+                //System.out.printf("%-6s%-6d%-6d%-6s\n", jobName, startTime, endTime, status);
             }
-            // print results
-            System.out.printf("    |   %-7s|        %-8d|      %-9d| %-18s|\n", jobName, startTime, endTime, status);
+
             // reset status
             status = "";
         }
 
-        System.out.println("    -----------------------------------------------------------------");
+        // System.out.println("    -----------------------------------------------------------------");
         //compute mean turn around time
         double sum = 0;
         for(int i : completion) {
@@ -91,6 +86,7 @@ class RR2 {
         }
         double mean = sum/size;
         // log and print end time //
-        System.out.printf("Mean Turnaround Time= %.2f ms,\nTotal Time Elapse = %d ms\n", mean , (System.currentTimeMillis() - t1));
+       // System.out.printf("\nMean Turnaround Time= %.2f ms\n", mean);
+       System.out.println(mean);
     }
 }
