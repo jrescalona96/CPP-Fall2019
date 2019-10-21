@@ -2,7 +2,6 @@
 *.docx
 *.doc
 *.class
-*.txt
 *.json
 *.exe
 *.class
