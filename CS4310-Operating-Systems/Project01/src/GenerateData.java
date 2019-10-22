@@ -22,7 +22,7 @@ class GenerateData {
 
         // create file
         try {
-                File file = new File("../jobs/job_" + size + ".txt");
+                File file = new File("../jobs/job_" + size  + "_" + args[1]+ ".txt");
                 PrintWriter wr = new PrintWriter(file);
                 String name = "Job";
                 String burstTime = "";
