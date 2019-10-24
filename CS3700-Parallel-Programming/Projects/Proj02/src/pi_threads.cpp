@@ -9,31 +9,30 @@
 
 using namespace std;
 
-const long long size = 100;
+const double size = 1000000000.0;
 mutex lock_mutex;
 
 // FUNTIONS //
-void runSimulation(double &totalHits, int id, long long slice)
+void runSimulation(double &totalHits, int id, unsigned long long start, unsigned long long end)
 {
     double localHits;
-    long long x, y;
-    long long localSlice;
+    double x, y, c;
+    long long localSlice = end - start;
     srand((unsigned)id);
-
-    printf("Thread %d online\n", id + 1);
-    for (int i = 0; i <= localHits; i++)
+    for (int i = 0; i <= localSlice; i++)
     {
         x = ((double)rand() / (double)RAND_MAX); // generate random x coordinate
         y = ((double)rand() / (double)RAND_MAX); // generate random y coordinate
-        if (sqrt((x * x) + (y * y)) <= 1.0)
+        c = sqrt((x * x) + (y * y));
+        if (c <= 1.0)
         {
             localHits++;
         }
     }
     // set lock automatically will be unlocked after
+
     lock_guard<mutex> local_lock(lock_mutex);
     totalHits += localHits;
-    printf("=> Thread %d finished\n", id);
 }
 
 // MAIN //
@@ -42,33 +41,43 @@ int main(int argc, char **argv)
     if (strcmp("0", argv[1]))
     {
         // DECLARATIONS
-        long long threads = stoi(argv[1]);
+        int threads = stoi(argv[1]);
         thread td[threads];
         double totalHits = 0.0;
         int threadID;
 
         auto start = chrono::system_clock::now();
-
-        unsigned long long slice = size / threads; // divide trials
-
-        cout << "Creating " << threads << " threads" << endl;
+        unsigned long long slice = size / threads;
+        unsigned long long startIndex = 0, endIndex = slice - 1;
+        printf("\nSlice = %lld\n\n", slice);
         for (int i = 0; i < threads; i++)
         {
-            //TODO: Need to account for ONLY up to the given size.
             threadID = i;
-            td[threadID] = thread(runSimulation, ref(totalHits), threadID, slice);
+            printf("Thread %d,  Slice: [%lld:%lld]\n", threadID, startIndex, endIndex);
+            td[threadID] = thread(runSimulation, ref(totalHits), threadID, startIndex, endIndex);
+            startIndex = endIndex + 1;
+            //TODO: Need to account for ONLY up to the given size.
+            if (i == (threads - 1))
+            {
+                unsigned long long endIndex = size - 1;
+            }
+            else
+            {
+                endIndex = startIndex + slice - 1;
+            }
         }
+        printf("Created %d threads\n\n", threads);
 
         for (int i = 0; i < threads; i++)
         {
             td[i].join();
-            cout << threadID << " joined" << endl;
+            printf("Thread %d joined\n", i);
         }
 
         // print results
         chrono::duration<double> elapseTime = chrono::system_clock::now() - start;
-        cout << "Execution time: " << elapseTime.count() << " seconds" << endl;
-        cout << "Result: " << totalHits << "out of" << size << endl;
+        cout << "\nExecution time: " << elapseTime.count() << " seconds" << endl;
+        cout << "Result: " << totalHits << " out of " << size << endl;
         cout << "pi =  " << ((totalHits / size) * 4) << endl;
     }
     else
