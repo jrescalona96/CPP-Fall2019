@@ -5,7 +5,9 @@
 
 > Use any language (of your choice) to program the above tasks by writing one sort function only but may have a number of auxiliary (help) functions for ordering.
 >
-> > Then, write a main function/program that makes **three calls to the sort function** to accomplish the above three different sorting tasks. Test the program using the following data (note: you may store data in an array or a list or whatever data structure you think appropriate.) Initialize the input data in the program instead of entering from keyboard or reading from file.
+> - Write a main function/program that makes **three calls to the sort function** to accomplish the above three different sorting tasks.
+> - Test the program using the following data (note: you may store data in an array or a list or whatever data structure you think appropriate.)
+> - Initialize the input data in the program instead of entering from keyboard or reading from file.
 
 - Dan 45
 - Adam 39
@@ -43,6 +45,43 @@
 
 Write a main program to provide at **least two test runs**. You may use input data similar to the above but with larger matrix sizes. Initialize the input data in program code.
 
+# **Classes**
+
+> # Student
+>
+> This class will hold information about student
+>
+> ## Fields
+>
+> - String name
+>
+> - Integer grade
+
+> # Sorter
+>
+> This class defines all sorting using **quick sort** with a modified comparator provided by the calling function
+>
+> ```java
+> sort(ArrayList \<Student> students, Comparator::compareVersion1)
+> ```
+>
+> Parameters:
+>
+> - ArrayList students
+> - Reference to the correct version of compare function from Comparator
+>
+> Retruns:
+>
+> - sorted ArrayList students
+
+> # Comparator
+>
+> This class implements differnent variations for the compare function. Methods are generic to take in either String or Integer
+>
+> compareA ( \<T> x , \<T> y )
+>
+> - returns TRUE if x > y, FALSE otherwise
+
 # **Algorithms**
 
 ## 1. Ascending names, then Ascending scores
@@ -52,3 +91,7 @@ Write a main program to provide at **least two test runs**. You may use input da
 ## 2. Ascending names, then Descending scores
 
 ## 3. Descending names, then Descending scores
+
+```
+
+```

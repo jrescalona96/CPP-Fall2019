@@ -30,10 +30,10 @@ class RR2 {
         } catch (Exception e) {
             System.err.println(e.getClass());
         }
-    }   
+    }
 
     public static void runScheduler(Queue<String> nameQueue, Queue<Integer> timeQueue, int size) {
-        
+
         // declarations //
         String jobName = "";
         Integer burstTime;
@@ -41,7 +41,7 @@ class RR2 {
         int startTime = 0, endTime = 0, timeLeft = 0, timeUsed = 0;
         final int SLICE = 2;
         ArrayList<Integer> completion = new ArrayList<Integer>();
-        
+
         // print header //
         System.out.printf("\n                         Test Case = %s data points                  \n", size);
         System.out.println("    -----------------------------------------------------------------");
@@ -63,16 +63,16 @@ class RR2 {
             timeLeft = burstTime - SLICE;
 
             // set start and end times
-            timeUsed = burstTime - timeLeft; //set timeUsed = burstTime - remaning time
-            startTime = endTime;  // set start time to previous end time
+            timeUsed = burstTime - timeLeft; // set timeUsed = burstTime - remaning time
+            startTime = endTime; // set start time to previous end time
             endTime = startTime + timeUsed; // track endTime using time used per process
 
             // test if job is completed //
-            if (timeLeft > 0) { 
+            if (timeLeft > 0) {
                 nameQueue.add(jobName);
                 timeQueue.add(timeLeft);
                 status = "";
-            // else add time to ArrayList the set status string //
+                // else add time to ArrayList the set status string //
             } else {
                 completion.add(endTime);
                 status = "Completed @ " + endTime;
@@ -84,13 +84,14 @@ class RR2 {
         }
 
         System.out.println("    -----------------------------------------------------------------");
-        //compute mean turn around time
+        // compute mean turn around time
         double sum = 0;
-        for(int i : completion) {
-            sum+=i;
+        for (int i : completion) {
+            sum += i;
         }
-        double mean = sum/size;
+        double mean = sum / size;
         // log and print end time //
-        System.out.printf("Mean Turnaround Time= %.2f ms,\nTotal Time Elapse = %d ms\n", mean , (System.currentTimeMillis() - t1));
+        System.out.printf("Mean Turnaround Time= %.2f ms,\nTotal Time Elapse = %d ms\n", mean,
+                (System.currentTimeMillis() - t1));
     }
 }

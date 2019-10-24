@@ -15,7 +15,7 @@ class RR5 {
 
         // read and store data
         try {
-            File input = new File("../jobs/job_" + size +"_"+args[1]+ ".txt");
+            File input = new File("../jobs/job_" + size + "_" + args[1] + ".txt");
             BufferedReader reader = new BufferedReader(new FileReader(input));
             // read and store jobs into Queues
             while ((jobName = reader.readLine()) != null) {
@@ -28,13 +28,13 @@ class RR5 {
         } catch (Exception e) {
             System.err.println(e.getClass());
         }
-    }   
+    }
 
     public static void runScheduler(Queue<String> nameQueue, Queue<Integer> timeQueue, int size) {
         ArrayList<Integer> completion = new ArrayList<Integer>();
-        
+
         // System.out.printf("\nTest Case = %s data points\n", size);
-        // System.out.println("Name  S.T.  E.T.  Stat");
+        // System.out.println("Name S.T. E.T. Stat");
 
         String jobName = "";
         Integer burstTime;
@@ -71,22 +71,23 @@ class RR5 {
             } else {
                 completion.add(endTime);
                 status = "@" + endTime;
-                //System.out.printf("%-6s%-6d%-6d%-6s\n", jobName, startTime, endTime, status);
+                // System.out.printf("%-6s%-6d%-6d%-6s\n", jobName, startTime, endTime, status);
             }
 
             // reset status
             status = "";
         }
 
-        // System.out.println("    -----------------------------------------------------------------");
-        //compute mean turn around time
+        // System.out.println("
+        // -----------------------------------------------------------------");
+        // compute mean turn around time
         double sum = 0;
-        for(int i : completion) {
-            sum+=i;
+        for (int i : completion) {
+            sum += i;
         }
-        double mean = sum/size;
+        double mean = sum / size;
         // log and print end time //
-       // System.out.printf("\nMean Turnaround Time= %.2f ms\n", mean);
-       System.out.println(mean);
+        // System.out.printf("\nMean Turnaround Time= %.2f ms\n", mean);
+        System.out.println(mean);
     }
 }
