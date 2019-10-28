@@ -95,3 +95,4 @@ Write a main program to provide at **least two test runs**. You may use input da
 ```
 
 ```
+> ``` javac *.java && java Sorter ```
