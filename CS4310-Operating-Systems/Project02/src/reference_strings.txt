@@ -1,0 +1,200 @@
+Number of page frame value:
+5
+Reference String:
+255736461702676173506676523266
+Number of page frame value:
+4
+Reference String:
+156473554353715754711547357643
+Number of page frame value:
+5
+Reference String:
+066561623751503460716277745312
+Number of page frame value:
+3
+Reference String:
+075053760314740205407234115612
+Number of page frame value:
+8
+Reference String:
+753525310064074063745672054447
+Number of page frame value:
+6
+Reference String:
+015560243774001015777663407111
+Number of page frame value:
+7
+Reference String:
+544414235452600536575061554413
+Number of page frame value:
+8
+Reference String:
+325216720647632165136220131407
+Number of page frame value:
+8
+Reference String:
+632024026233021313237251154365
+Number of page frame value:
+4
+Reference String:
+325463623302240421436427654356
+Number of page frame value:
+7
+Reference String:
+461072255703251022367702737173
+Number of page frame value:
+5
+Reference String:
+150635625740013631617043753754
+Number of page frame value:
+5
+Reference String:
+543454104110737755363634317556
+Number of page frame value:
+5
+Reference String:
+302376465554072026256414725653
+Number of page frame value:
+6
+Reference String:
+552205673361414714373200225433
+Number of page frame value:
+6
+Reference String:
+564174412317427425474554030033
+Number of page frame value:
+5
+Reference String:
+305545263073420512521046263263
+Number of page frame value:
+5
+Reference String:
+455326013224725705436020465100
+Number of page frame value:
+5
+Reference String:
+542066425470412537545150403121
+Number of page frame value:
+8
+Reference String:
+611615206455056045555325360571
+Number of page frame value:
+4
+Reference String:
+127466434031066661375741234324
+Number of page frame value:
+3
+Reference String:
+667026054107070332633412640517
+Number of page frame value:
+5
+Reference String:
+141403362222051045132721603256
+Number of page frame value:
+5
+Reference String:
+742753175271142332043432607254
+Number of page frame value:
+4
+Reference String:
+137307522256156464633052337321
+Number of page frame value:
+6
+Reference String:
+415416561027170662550336770675
+Number of page frame value:
+4
+Reference String:
+116720442527115620020654774141
+Number of page frame value:
+7
+Reference String:
+260636036172263444725514264130
+Number of page frame value:
+6
+Reference String:
+123455304445253762642464076577
+Number of page frame value:
+5
+Reference String:
+410347376255161164575413577550
+Number of page frame value:
+5
+Reference String:
+171155176165756630424353200734
+Number of page frame value:
+7
+Reference String:
+764237451316442053076160257247
+Number of page frame value:
+4
+Reference String:
+071231667662716732520572203577
+Number of page frame value:
+6
+Reference String:
+610646564652312721176026120431
+Number of page frame value:
+8
+Reference String:
+400324702613456536364630727441
+Number of page frame value:
+8
+Reference String:
+475454166271732762762267032344
+Number of page frame value:
+3
+Reference String:
+125124661144431544724164144457
+Number of page frame value:
+7
+Reference String:
+414200737127275627476632257630
+Number of page frame value:
+5
+Reference String:
+244771342176004024750305250513
+Number of page frame value:
+8
+Reference String:
+361404505567152465013545462257
+Number of page frame value:
+8
+Reference String:
+052455623346521311453771747560
+Number of page frame value:
+4
+Reference String:
+557105521152744677430767064444
+Number of page frame value:
+5
+Reference String:
+633225732254673054236561606301
+Number of page frame value:
+8
+Reference String:
+732246112666745257221357017777
+Number of page frame value:
+3
+Reference String:
+440305213355552045164007703704
+Number of page frame value:
+6
+Reference String:
+011156336576107412072277210755
+Number of page frame value:
+8
+Reference String:
+330374717322065231611337160747
+Number of page frame value:
+6
+Reference String:
+243425745625623254076461166327
+Number of page frame value:
+6
+Reference String:
+145617526606572171706576122336
+Number of page frame value:
+8
+Reference String:
+443575033313052114064421500130
