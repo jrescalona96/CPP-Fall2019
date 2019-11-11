@@ -44,7 +44,7 @@ class OptimalPageReplacement {
                             pageTable.remove(); //remove oldest page
                             pageTable.add(page); //add new page
                         } else {
-                            // everytime there is a page hit, move that element to end of queue
+                            page = findOptimalPageToReplace(page, pageTable);
                             pageTable = updatePageTable(page, pageTable);
                         }
                     }
@@ -52,6 +52,7 @@ class OptimalPageReplacement {
                     printPageTable(pageTable);
                 }
             }
+            
             reader.close();
             System.out.println("\nAll jobs Done!");
 
@@ -62,6 +63,12 @@ class OptimalPageReplacement {
 
     // HELPER FUNCTIONS //
 
+    public static String findOptimalPageToReplace(String page, Queue<String> pageTable) {
+        Queue<String> tableQueue = new LinkedList<String>(pageTable);
+        String optimalPage = "";
+        System.out.println("Implement finding the most optimal page method!!!!");
+        return optimalPage;
+    }
     // Returns true if there is a page fault, false otherwise
     public static boolean pageFault(String page, Queue<String> pageTable) {
         boolean res = false;

@@ -17,7 +17,7 @@ class LRUPageReplacement {
             String referenceString = "";
             String page = new String();
             Queue<String> pageTable;
-
+            int numberOfPageFault = 0; // counter
             // TRAVERSE FILE //
             while(reader.readLine() != null) {
                 // INITIALIZATIONS //
@@ -70,23 +70,24 @@ class LRUPageReplacement {
     
     public static Queue<String> updatePageTable(String page, Queue<String> pageTable) {
         Queue<String> tableQueue = new LinkedList<String>(pageTable);
-        Stack<String> tempStack = new Stack<String>();
+        //Stack<String> tempStack = new Stack<String>();
         while(!tableQueue.isEmpty()) {
             // check if current table page == to page
             if(page != tableQueue.peek()) {
                 // remove and store to stack
-                tempStack.push(tableQueue.remove());
+                tableQueue.add(tableQueue.remove());
             } else {
                 // remove matching item form queue
                 tableQueue.remove();
             }
         }
-        // add all elements of tempStack to tableQueue
-        for (int i = 0; i < tempStack.size(); i++) {
-            tableQueue.add(tempStack.pop());
-        }
+        // // add all elements of tempStack to tableQueue
+        // for (int i = 0; i < tempStack.size(); i++) {
+        //     tableQueue.add(tempStack.pop());
+        // }
         //add page to end of queue
         tableQueue.add(page);
+        // return tableQueue;
         return tableQueue;
     }
 

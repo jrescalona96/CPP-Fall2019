@@ -16,6 +16,7 @@ class FIFOPageReplacement {
             String referenceString = "";
             String page = new String();
             Queue<String> pageTable;
+            int numberOfPageFault = 0; // counter
             // TRAVERSE FILE //
             while(reader.readLine() != null) {
                 // INITIALIZATIONS //
@@ -23,6 +24,7 @@ class FIFOPageReplacement {
                 pageFrameSize = Integer.parseInt(reader.readLine()); // Page Frame
                 reader.readLine(); // Skip header text
                 referenceString = reader.readLine(); // Read reference String
+                
                 System.out.printf("\nPage Frame size: %d\n",  pageFrameSize);
                 // START JOB //
                 for (int i = 0; i < referenceString.length(); i++) {
