@@ -22,29 +22,6 @@
 - Kevin 35
 - Elma 48
 
-2. _(Use a typed language that supports generic subprogram – note: Python not eligible)_ Write a generic function find_max that finds the first occurrence of the “largest” element in a matrix.
-
-> For example:
-> in the following 3x4 matrix of integers
->
-> `[1,2,4,4]`
->
-> `[5,5,4,2]`
->
-> `[3,1,1,5]`
->
-> the first occurrence of the largest element is 5 at position/indices (1,0).
-
-> In the following 5x2 matrix of strings
->
-> `[“David”, “Kelin”, “Peter”, “Zag”, “Diana”],`
->
-> `[“Elin”, “Adam”, “Young”, “Peter”, “Zag”]`
->
-> the first occurrence of the largest element is “Zag” at position/indices (0,3).
-
-Write a main program to provide at **least two test runs**. You may use input data similar to the above but with larger matrix sizes. Initialize the input data in program code.
-
 # **Classes**
 
 > # Student
@@ -92,7 +69,45 @@ Write a main program to provide at **least two test runs**. You may use input da
 
 ## 3. Descending names, then Descending scores
 
-```
+# Run Script
 
+> `javac *.java && java Sorter`
+
+2. _(Use a typed language that supports generic subprogram – note: Python not eligible)_ Write a generic function find_max that finds the first occurrence of the “largest” element in a matrix.
+
+> For example:
+> in the following 3x4 matrix of integers
+>
+> `[1,2,4,4]`
+>
+> `[5,5,4,2]`
+>
+> `[3,1,1,5]`
+>
+> the first occurrence of the largest element is 5 at position/indices (1,0).
+
+> In the following 5x2 matrix of strings
+>
+> `[“David”, “Kelin”]`
+>
+> `[“Peter”, “Zag”]`
+>
+> `[“Diana”, “Elin”]`
+>
+> `[“Adam”, “Young”]`
+>
+> `[“Peter”, “Zag”]`
+>
+> the first occurrence of the largest element is “Zag” at position/indices (0,3).
+
+Write a main program to provide at **least two test runs**. You may use input data similar to the above but with larger matrix sizes. Initialize the input data in program code.
+
+# Findings
+
+```java
+// import comparable
+import java.util.Comparable;
+
+// KEY: must extend Comparable in methods that uses compareTo()
+public <T extends Comparable<T>> void findMaxValue(T[][] arr) {... val1.compareTo(val2) ...}
 ```
-> ``` javac *.java && java Sorter ```
