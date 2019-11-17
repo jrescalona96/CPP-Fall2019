@@ -79,14 +79,13 @@ class OptimalPageReplacement {
 
     // Method returns the most optimal page to replace
     public static String findOptimalPage(String referenceString, Queue<String> pageTable) {
+        Queue<String> pageTableCopy = new LinkedList<String>(pageTable);
         String optimalPage = "";
         int optimalPageIndex = 0;
         int tempIndex = 0;
-
-        for (String page : pageTable) {
+        for (String page : pageTableCopy) {
             if (referenceString.contains(page)) {
                 tempIndex = referenceString.indexOf(page);
-                System.out.println(tempIndex);
                 if (tempIndex > optimalPageIndex) {
                     optimalPage = page;
                     optimalPageIndex = tempIndex;
@@ -109,6 +108,10 @@ class OptimalPageReplacement {
             }
         }
         pageTableCopy.addFirst(page);
+        // check for overflow. happens when there are no more options to choose from at the end of the reference string. 
+        if(pageTableCopy.size() > pageTable.size()) {
+            pageTableCopy.remove();
+        }
         // return pageTableCopy;
         return pageTableCopy;
     }
