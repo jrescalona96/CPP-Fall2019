@@ -34,7 +34,12 @@ class LRUPageReplacement {
                     page = String.valueOf(referenceString.charAt(i));
                     // initialize pageTable
                     if (pageTable.size() < pageFrameSize) {
-                        pageTable.add(page);
+                        // initialize page table. If page fault, add to page table,else skip.
+                        if (pageFault(page, pageTable)) {
+                            System.out.printf("\nPage Fault: %s not found!\n", page);
+                            numberOfPageFaults++; // incerement page fault counter
+                            pageTable.add(page);
+                        }
                     } else {
                         // check if page is Fault
                         if (pageFault(page, pageTable)) {
@@ -52,8 +57,8 @@ class LRUPageReplacement {
                     printPageTable(pageTable);
                 }
             }
-            System.out.println("Number of Page Faults = " + numberOfPageFaults);
             reader.close();
+            System.err.println("Number of page Faults = " + numberOfPageFaults);
             System.out.println("\nAll jobs Done!");
 
         } catch (Exception err) {
@@ -74,7 +79,7 @@ class LRUPageReplacement {
         Queue<String> pageTableCopy = new LinkedList<String>(pageTable);
         for (int i = 0; i < pageTableCopy.size(); i++) {
             // check if page from table == page
-            if (page.equals(pageTableCopy.peek())) {
+            if (!page.equals(pageTableCopy.peek())) {
                 // remove and push to back of queue
                 pageTableCopy.add(pageTableCopy.remove());
             } else {

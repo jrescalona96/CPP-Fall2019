@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.FileReader;
 import java.io.BufferedReader;
+import java.util.Deque;
 import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Stack;
@@ -14,9 +15,10 @@ class OptimalPageReplacement {
             BufferedReader reader = new BufferedReader(
                     new FileReader(new File("reference_strings_" + pageFrameSize + ".txt")));
             String referenceString = "";
+            String optimalPage = "";
             String page = new String();
             Queue<String> pageTable;
-            int numberOfPageFault = 0;
+            int numberOfPageFaults = 0;
 
             // TRAVERSE FILE //
             while (reader.readLine() != null) {
@@ -32,17 +34,21 @@ class OptimalPageReplacement {
                     System.out.printf("\nRemaining String: %s", referenceString.substring(i, referenceString.length()));
                     // read next page
                     page = String.valueOf(referenceString.charAt(i));
-
                     if (pageTable.size() < pageFrameSize) {
-                        // initialize pageTable
-                        pageTable.add(page);
+                        // initialize page table
+                        if (pageFault(page, pageTable)) {
+                            numberOfPageFaults++; // incerement page fault counter
+                            System.out.printf("\nPage Fault: %s not found!\n", page);
+                            pageTable.add(page);
+                        }
                     } else {
                         // check if page is Fault
                         if (pageFault(page, pageTable)) {
-                            // upadate page table
-                            numberOfPageFault++; // incerement page fault counter
-                            pageTable = updatePageTable(referenceString.substring(i, referenceString.length()),
+                            numberOfPageFaults++; // incerement page fault counter
+                            // find optimal page to replace
+                            optimalPage = findOptimalPage(referenceString.substring(i, referenceString.length()),
                                     pageTable);
+                            pageTable = updatePageTable(optimalPage, pageTable);
                             System.out.printf("\nFault: %s\n", page);
                             pageTable.remove(); // remove latest page to appear
                             pageTable.add(page); // add new page
@@ -52,8 +58,8 @@ class OptimalPageReplacement {
                     printPageTable(pageTable);
                 }
             }
-
             reader.close();
+            System.err.println("Number of page Faults = " + numberOfPageFaults);
             System.out.println("\nAll jobs Done!");
 
         } catch (Exception err) {
@@ -71,25 +77,39 @@ class OptimalPageReplacement {
         return res;
     }
 
-    // Method returns a new Queue with the latest accessed page at the end
-    public static Queue<String> updatePageTable(String referenceString, Queue<String> pageTable) {
-        Queue<String> pageTableCopy = new LinkedList<String>(pageTable); // copy input page table (good practice only)
-        String p;
-        for (int i = 0; i < referenceString.length(); i++) {
-            p = referenceString.substring(i, i); // read page
-            // check if current table page == to page
-            if (pageTableCopy.contains(p)) {
-                // put at end of queue
-                for (String s : pageTableCopy) {
-                    if (!s.equals(p)) {
-                        pageTableCopy.add(pageTableCopy.remove());
-                    } else {
-                        pageTableCopy.remove();
-                    }
+    // Method returns the most optimal page to replace
+    public static String findOptimalPage(String referenceString, Queue<String> pageTable) {
+        String optimalPage = "";
+        int optimalPageIndex = 0;
+        int tempIndex = 0;
+
+        for (String page : pageTable) {
+            if (referenceString.contains(page)) {
+                tempIndex = referenceString.indexOf(page);
+                System.out.println(tempIndex);
+                if (tempIndex > optimalPageIndex) {
+                    optimalPage = page;
+                    optimalPageIndex = tempIndex;
                 }
-                pageTableCopy.add(p);
             }
         }
+        return optimalPage;
+    }
+
+    public static Queue<String> updatePageTable(String page, Queue<String> pageTable) {
+        Deque<String> pageTableCopy = new LinkedList<String>(pageTable);
+        for (int i = 0; i < pageTableCopy.size(); i++) {
+            // check if page from table == page
+            if (!page.equals(pageTableCopy.peek())) {
+                // remove and push to back of queue
+                pageTableCopy.add(pageTableCopy.remove());
+            } else {
+                // remove matching item form queue
+                pageTableCopy.remove();
+            }
+        }
+        pageTableCopy.addFirst(page);
+        // return pageTableCopy;
         return pageTableCopy;
     }
 
