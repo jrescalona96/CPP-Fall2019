@@ -1,32 +1,26 @@
-import java.util.Random;
-
 class Test {
     public static void main(String[] args) {
         // declarations
-        final int size = 1000; // test case repetetions
+        final int size = 100; // test case repetetions
         long startTime;
-        Random rand = new Random();
-        Rectangle rectangle;
-        Rectangle square;
+        Rectangle square = new Square();
 
-        // call to statically bound method
-        startTime = System.currentTimeMillis();
-        for(int i = 0; i < size; i++) {
-            rectangle = new Rectangle(Math.random() * 10, Math.random() * 10);
-            rectangle.staticArea();
-        }
-        long staticTime = System.currentTimeMillis() - startTime;
-
-        System.out.println(); //break line
-        
-        startTime = System.currentTimeMillis();
         // call to dynamically bound method
-        for(int i = 0; i < size; i++) {
-            square = new Square(Math.random() * 10);
-            square.dynamicArea();
+        startTime = System.currentTimeMillis();
+        for (int i = 0; i < size; i++) {
+            square.dynamicArea(5, 5);
         }
         long dynamicTime = System.currentTimeMillis() - startTime;
 
-        System.out.printf("\nTime to finish %d calls:\nStatic Method = %d ms\nDynamic Method = %d ms\n", size , staticTime, dynamicTime); 
+        // call to statically bound method
+        startTime = System.currentTimeMillis();
+        for (int i = 0; i < size; i++) {
+            Rectangle.staticArea(5, 5);
+        }
+        long staticTime = System.currentTimeMillis() - startTime;
+
+        System.out.printf("\nTime to finish %d calls:\n", size);
+        System.out.printf("Static Method = %d ms\n", staticTime);
+        System.out.printf("Dynamic Method = %d ms\n", dynamicTime);
     }
 }
