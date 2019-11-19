@@ -1,0 +1,1 @@
+for size in {3..6}; do java FIFOPageReplacement $size ; done

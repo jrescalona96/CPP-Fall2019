@@ -18,8 +18,9 @@ class OptimalPageReplacement {
             String optimalPage = "";
             String page = new String();
             Queue<String> pageTable;
-            int numberOfPageFaults = 0;
-
+            double numberOfPageFaults = 0.0;
+            double numberOfStrings = 0.0;
+            double average = 0.0;
             // TRAVERSE FILE //
             while (reader.readLine() != null) {
                 // INITIALIZATIONS //
@@ -27,11 +28,12 @@ class OptimalPageReplacement {
                 pageFrameSize = Integer.parseInt(reader.readLine()); // Page Frame
                 reader.readLine(); // Skip header text
                 referenceString = reader.readLine(); // Read reference String
+                numberOfStrings++; //increment reference string counter
 
                 System.out.printf("\nPage Frame size: %d\n", pageFrameSize);
                 // START JOB //
                 for (int i = 0; i < referenceString.length(); i++) {
-                    System.out.printf("\nRemaining String: %s", referenceString.substring(i, referenceString.length()));
+                    //System.out.printf("\nRemaining String: %s", referenceString.substring(i, referenceString.length()));
                     // read next page
                     page = String.valueOf(referenceString.charAt(i));
                     if (pageTable.size() < pageFrameSize) {
@@ -55,13 +57,14 @@ class OptimalPageReplacement {
                         }
                     }
                     // print current page table //
-                    printPageTable(pageTable);
+                    // printPageTable(pageTable);
                 }
             }
             reader.close();
-            System.err.println("Number of page Faults = " + numberOfPageFaults);
-            System.out.println("\nAll jobs Done!");
-
+            average = numberOfPageFaults/numberOfStrings;
+            System.out.println("Number of page Faults = " + numberOfPageFaults);
+            System.out.printf("%f jobs Done!\n", numberOfStrings);
+            System.out.println("Average page faults = " + average);
         } catch (Exception err) {
             System.err.println(err.getClass());
         }

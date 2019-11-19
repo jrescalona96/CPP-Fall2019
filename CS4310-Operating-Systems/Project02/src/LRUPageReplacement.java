@@ -18,7 +18,9 @@ class LRUPageReplacement {
             String referenceString = "";
             String page = new String();
             Queue<String> pageTable;
-            int numberOfPageFaults = 0; // counter
+            double numberOfPageFaults = 0.0;
+            double numberOfStrings = 0.0;
+            double average = 0.0;
             // TRAVERSE FILE //
             while (reader.readLine() != null) {
                 // INITIALIZATIONS //
@@ -26,6 +28,7 @@ class LRUPageReplacement {
                 pageFrameSize = Integer.parseInt(reader.readLine()); // Page Frame
                 reader.readLine(); // Skip header text
                 referenceString = reader.readLine(); // Read reference String
+                numberOfStrings++;
                 System.out.printf("\nPage Frame size: %d\n", pageFrameSize);
                 // START JOB //
                 for (int i = 0; i < referenceString.length(); i++) {
@@ -54,12 +57,14 @@ class LRUPageReplacement {
                         }
                     }
                     // print current page table //
-                    printPageTable(pageTable);
+                    // printPageTable(pageTable);
                 }
             }
             reader.close();
+            average = numberOfPageFaults/numberOfStrings;
             System.err.println("Number of page Faults = " + numberOfPageFaults);
-            System.out.println("\nAll jobs Done!");
+            System.out.printf("%f jobs Done!\n", numberOfStrings);
+            System.out.println("Average page faults = " + average);
 
         } catch (Exception err) {
             System.err.println(err.getClass());
