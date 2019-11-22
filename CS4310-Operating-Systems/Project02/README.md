@@ -1,21 +1,62 @@
-# Algorithm
+## **First Come First Serve**
+> - let n = Number of page frame
+> - while not end file
+> >  - read referenceString
+> >  - while not end of string
+> >  - read char
+> >  - initialize Queue with N chars
+> >  - Check Page fault
+> >  - if true
+> >  >  - pop from pageTable & push page to end
+> >  - else skip
+> - read next char
 
-## First Come First Serve
+## **Least Recently Used**
+> - let n = Number of page frame
+> - while not end file
+> > - read referenceString
+> > - while not end of string
+> > - read char
+> > - if length of pageTable < N
+> - if no page fault, skip
+> > > - else add page to end
+> > - Check Page fault
+> > - if true
+> > - pop from tableQueue
+> > - push to tableQueue
+> > - else (everytime there is a page hit, move that element to end of queue)
+> > - while tableQueue is not empty
+> > >  - if page != element at top front of queue
+> > >  - pop element and push to end
+> > >  - else pop element
+> > - push elements from stack to tableQueue
+> > - push page to tableQueue
+> - read next page
 
-> - Traverse Whole File
-> - Skip first line
-> - Read and inititalize pageFrameSize
-> - Traverse referenceString
-> - create referenceString[ ] with page objs
-> - Initialize frameVector page obj(s) until full
-> - CheckPageFault() for next page obj
-> - if true
-> - increment pageFault
-> - delete last page from frameVector
-> - add page to front of frameVector
-> - else
-> - skip and next page
-> - if end of referenceString[ ]
-> - Read next String
+## **Optimal**
+> - let N = Number of page frame
+> - while not end file
+>  > - read referenceString
+>  > - while not end of string
+>  > - read char
+>  > - initialize pageTable with N characters keeping
+>  > - if length of pageTable < N
+> > - if no page fault, skip
+> > - else add page to end
+>  > - Check Page fault
+>  > - if true
+>  > - pop from front and push to end of push to tableQueue
+>  > - else rearrange Queue so that optimal page to remove is on top
+>  > - while not end of page table
+>  >  > - if page in pageTable not in remaining reference string, skip
+>  >  > - else get index
+>  >  >  - if index is current max index, set optimal page
+>  >  >  - else skip
+>  > - update pageTable with optimal page up front
+> - read next page
 
-## Last Recently Used
+## Run File
+To run the file, you can use the *run.sh* with proper permissions set.
+OR
+```javac <filename>.java```
+```java <filename> <page_frame_size>```

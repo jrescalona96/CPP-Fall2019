@@ -10,3 +10,4 @@
 *.gif
 *.class
 *.xlsx
+node_modules/
