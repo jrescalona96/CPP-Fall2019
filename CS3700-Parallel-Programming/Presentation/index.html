@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Serverless Presentation</title>
+</head>
+
+<body class="bg-dark text-white">
+    <div class="container text-center">
+
+        <h1>Serverless Computing Demo</h1>
+
+        <button type="button" class="btn btn-success m-2 border border-light" onclick=ourAPI()>
+            Request from our API
+        </button>
+
+        <button type="button" class="btn btn-warning m-2 border border-dark">
+            <a href="https://23qxqltpq0.execute-api.us-east-2.amazonaws.com/default/getMessage"> Request from AWS
+                Gateway API</a>
+
+        </button>
+
+        <!-- contianer to hold response from request -->
+        <div class=" response">
+        </div>
+    </div>
+</body>
+
+<script>
+    function ourAPI() {
+        console.log("Welcome to our API");
+    }
+
+    async function awsGatewayAPI() {
+        console.log("Welcome to our Gateway API");
+        const url = "https://23qxqltpq0.execute-api.us-east-2.amazonaws.com/default/getMessage";
+        //const response = await fetch("https://23qxqltpq0.execute-api.us-east-2.amazonaws.com/default/getMessage");
+        const response = await fetch(url, {
+            method: 'POST', // *GET, POST, PUT, DELETE, etc.
+            mode: 'cors', // no-cors, *cors, same-origin
+            cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+            credentials: 'include', // include, *same-origin, omit
+            headers: {
+                "Access-Control-Allow-Origin": "localhost//",
+                'Content-Type': 'application/json'
+            }
+        })
+
+        response.then(data => {
+            console.log(data)
+        });
+    }
+
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>

@@ -89,6 +89,8 @@ class OptimalPageReplacement {
                     optimalPage = page;
                     optimalPageIndex = tempIndex;
                 }
+            } else {
+                return page;
             }
         }
         return optimalPage;
@@ -106,7 +108,6 @@ class OptimalPageReplacement {
                 pageTableCopy.remove();
             }
         }
-        pageTableCopy.addFirst(page);
         // return pageTableCopy;
         return pageTableCopy;
     }
