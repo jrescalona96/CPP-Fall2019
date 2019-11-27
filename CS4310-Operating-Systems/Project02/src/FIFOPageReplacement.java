@@ -65,7 +65,12 @@ class FIFOPageReplacement {
                         }
                     }
                     // print current page table //
-                    printPageTable(pageTable);
+                    System.out.print(" => /");
+                    writer.print(" => /");
+                    for(String s:pageTable) {
+                        System.out.print(s + "/");
+                        writer.print(s + "/");
+                    }
                 }
                 System.out.printf("\n****************************************************************************\n");
                 System.out.printf("Page Faults = %.0f", numberOfPageFaults);
@@ -107,13 +112,5 @@ class FIFOPageReplacement {
             res = true;
         }
         return res;
-    }
-    // generic method to print Queue
-    public static void printPageTable(Queue<String> pageTable) {
-        Queue<String> temp = new LinkedList<String>(pageTable);
-        System.out.print(" => /");
-        while (temp.size() > 0) {
-            System.out.print(temp.remove() + "/");
-        }
     }
 }
