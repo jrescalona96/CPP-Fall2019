@@ -1,0 +1,1907 @@
+
+****************************************************************************
+Reference String: 563263117350745040367402556731
+Page Frame size: 3
+****************************************************************************
+Remaining String: 563263117350745040367402556731 => Page Fault: 5 not found! => /5/
+Remaining String: 63263117350745040367402556731 => Page Fault: 6 not found! => /5/6/
+Remaining String: 3263117350745040367402556731 => Page Fault: 3 not found! => /5/6/3/
+Remaining String: 263117350745040367402556731 => Page Fault: 2 not found! => /6/3/2/
+Remaining String: 63117350745040367402556731 => /6/3/2/
+Remaining String: 3117350745040367402556731 => /6/3/2/
+Remaining String: 117350745040367402556731 => Page Fault: 1 not found! => /3/2/1/
+Remaining String: 17350745040367402556731 => /3/2/1/
+Remaining String: 7350745040367402556731 => Page Fault: 7 not found! => /2/1/7/
+Remaining String: 350745040367402556731 => Page Fault: 3 not found! => /1/7/3/
+Remaining String: 50745040367402556731 => Page Fault: 5 not found! => /7/3/5/
+Remaining String: 0745040367402556731 => Page Fault: 0 not found! => /3/5/0/
+Remaining String: 745040367402556731 => Page Fault: 7 not found! => /5/0/7/
+Remaining String: 45040367402556731 => Page Fault: 4 not found! => /0/7/4/
+Remaining String: 5040367402556731 => Page Fault: 5 not found! => /7/4/5/
+Remaining String: 040367402556731 => Page Fault: 0 not found! => /4/5/0/
+Remaining String: 40367402556731 => /4/5/0/
+Remaining String: 0367402556731 => /4/5/0/
+Remaining String: 367402556731 => Page Fault: 3 not found! => /5/0/3/
+Remaining String: 67402556731 => Page Fault: 6 not found! => /0/3/6/
+Remaining String: 7402556731 => Page Fault: 7 not found! => /3/6/7/
+Remaining String: 402556731 => Page Fault: 4 not found! => /6/7/4/
+Remaining String: 02556731 => Page Fault: 0 not found! => /7/4/0/
+Remaining String: 2556731 => Page Fault: 2 not found! => /4/0/2/
+Remaining String: 556731 => Page Fault: 5 not found! => /0/2/5/
+Remaining String: 56731 => /0/2/5/
+Remaining String: 6731 => Page Fault: 6 not found! => /2/5/6/
+Remaining String: 731 => Page Fault: 7 not found! => /5/6/7/
+Remaining String: 31 => Page Fault: 3 not found! => /6/7/3/
+Remaining String: 1 => Page Fault: 1 not found! => /7/3/1/
+****************************************************************************
+Page Faults = 24
+****************************************************************************
+
+****************************************************************************
+Reference String: 456314206706201101251375320705
+Page Frame size: 3
+****************************************************************************
+Remaining String: 456314206706201101251375320705 => Page Fault: 4 not found! => /4/
+Remaining String: 56314206706201101251375320705 => Page Fault: 5 not found! => /4/5/
+Remaining String: 6314206706201101251375320705 => Page Fault: 6 not found! => /4/5/6/
+Remaining String: 314206706201101251375320705 => Page Fault: 3 not found! => /5/6/3/
+Remaining String: 14206706201101251375320705 => Page Fault: 1 not found! => /6/3/1/
+Remaining String: 4206706201101251375320705 => Page Fault: 4 not found! => /3/1/4/
+Remaining String: 206706201101251375320705 => Page Fault: 2 not found! => /1/4/2/
+Remaining String: 06706201101251375320705 => Page Fault: 0 not found! => /4/2/0/
+Remaining String: 6706201101251375320705 => Page Fault: 6 not found! => /2/0/6/
+Remaining String: 706201101251375320705 => Page Fault: 7 not found! => /0/6/7/
+Remaining String: 06201101251375320705 => /0/6/7/
+Remaining String: 6201101251375320705 => /0/6/7/
+Remaining String: 201101251375320705 => Page Fault: 2 not found! => /6/7/2/
+Remaining String: 01101251375320705 => Page Fault: 0 not found! => /7/2/0/
+Remaining String: 1101251375320705 => Page Fault: 1 not found! => /2/0/1/
+Remaining String: 101251375320705 => /2/0/1/
+Remaining String: 01251375320705 => /2/0/1/
+Remaining String: 1251375320705 => /2/0/1/
+Remaining String: 251375320705 => /2/0/1/
+Remaining String: 51375320705 => Page Fault: 5 not found! => /0/1/5/
+Remaining String: 1375320705 => /0/1/5/
+Remaining String: 375320705 => Page Fault: 3 not found! => /1/5/3/
+Remaining String: 75320705 => Page Fault: 7 not found! => /5/3/7/
+Remaining String: 5320705 => /5/3/7/
+Remaining String: 320705 => /5/3/7/
+Remaining String: 20705 => Page Fault: 2 not found! => /3/7/2/
+Remaining String: 0705 => Page Fault: 0 not found! => /7/2/0/
+Remaining String: 705 => /7/2/0/
+Remaining String: 05 => /7/2/0/
+Remaining String: 5 => Page Fault: 5 not found! => /2/0/5/
+****************************************************************************
+Page Faults = 43
+****************************************************************************
+
+****************************************************************************
+Reference String: 515610042540047040062754526173
+Page Frame size: 3
+****************************************************************************
+Remaining String: 515610042540047040062754526173 => Page Fault: 5 not found! => /5/
+Remaining String: 15610042540047040062754526173 => Page Fault: 1 not found! => /5/1/
+Remaining String: 5610042540047040062754526173 => /5/1/
+Remaining String: 610042540047040062754526173 => Page Fault: 6 not found! => /5/1/6/
+Remaining String: 10042540047040062754526173 => /5/1/6/
+Remaining String: 0042540047040062754526173 => Page Fault: 0 not found! => /1/6/0/
+Remaining String: 042540047040062754526173 => /1/6/0/
+Remaining String: 42540047040062754526173 => Page Fault: 4 not found! => /6/0/4/
+Remaining String: 2540047040062754526173 => Page Fault: 2 not found! => /0/4/2/
+Remaining String: 540047040062754526173 => Page Fault: 5 not found! => /4/2/5/
+Remaining String: 40047040062754526173 => /4/2/5/
+Remaining String: 0047040062754526173 => Page Fault: 0 not found! => /2/5/0/
+Remaining String: 047040062754526173 => /2/5/0/
+Remaining String: 47040062754526173 => Page Fault: 4 not found! => /5/0/4/
+Remaining String: 7040062754526173 => Page Fault: 7 not found! => /0/4/7/
+Remaining String: 040062754526173 => /0/4/7/
+Remaining String: 40062754526173 => /0/4/7/
+Remaining String: 0062754526173 => /0/4/7/
+Remaining String: 062754526173 => /0/4/7/
+Remaining String: 62754526173 => Page Fault: 6 not found! => /4/7/6/
+Remaining String: 2754526173 => Page Fault: 2 not found! => /7/6/2/
+Remaining String: 754526173 => /7/6/2/
+Remaining String: 54526173 => Page Fault: 5 not found! => /6/2/5/
+Remaining String: 4526173 => Page Fault: 4 not found! => /2/5/4/
+Remaining String: 526173 => /2/5/4/
+Remaining String: 26173 => /2/5/4/
+Remaining String: 6173 => Page Fault: 6 not found! => /5/4/6/
+Remaining String: 173 => Page Fault: 1 not found! => /4/6/1/
+Remaining String: 73 => Page Fault: 7 not found! => /6/1/7/
+Remaining String: 3 => Page Fault: 3 not found! => /1/7/3/
+****************************************************************************
+Page Faults = 61
+****************************************************************************
+
+****************************************************************************
+Reference String: 355712372402541643355567600554
+Page Frame size: 3
+****************************************************************************
+Remaining String: 355712372402541643355567600554 => Page Fault: 3 not found! => /3/
+Remaining String: 55712372402541643355567600554 => Page Fault: 5 not found! => /3/5/
+Remaining String: 5712372402541643355567600554 => /3/5/
+Remaining String: 712372402541643355567600554 => Page Fault: 7 not found! => /3/5/7/
+Remaining String: 12372402541643355567600554 => Page Fault: 1 not found! => /5/7/1/
+Remaining String: 2372402541643355567600554 => Page Fault: 2 not found! => /7/1/2/
+Remaining String: 372402541643355567600554 => Page Fault: 3 not found! => /1/2/3/
+Remaining String: 72402541643355567600554 => Page Fault: 7 not found! => /2/3/7/
+Remaining String: 2402541643355567600554 => /2/3/7/
+Remaining String: 402541643355567600554 => Page Fault: 4 not found! => /3/7/4/
+Remaining String: 02541643355567600554 => Page Fault: 0 not found! => /7/4/0/
+Remaining String: 2541643355567600554 => Page Fault: 2 not found! => /4/0/2/
+Remaining String: 541643355567600554 => Page Fault: 5 not found! => /0/2/5/
+Remaining String: 41643355567600554 => Page Fault: 4 not found! => /2/5/4/
+Remaining String: 1643355567600554 => Page Fault: 1 not found! => /5/4/1/
+Remaining String: 643355567600554 => Page Fault: 6 not found! => /4/1/6/
+Remaining String: 43355567600554 => /4/1/6/
+Remaining String: 3355567600554 => Page Fault: 3 not found! => /1/6/3/
+Remaining String: 355567600554 => /1/6/3/
+Remaining String: 55567600554 => Page Fault: 5 not found! => /6/3/5/
+Remaining String: 5567600554 => /6/3/5/
+Remaining String: 567600554 => /6/3/5/
+Remaining String: 67600554 => /6/3/5/
+Remaining String: 7600554 => Page Fault: 7 not found! => /3/5/7/
+Remaining String: 600554 => Page Fault: 6 not found! => /5/7/6/
+Remaining String: 00554 => Page Fault: 0 not found! => /7/6/0/
+Remaining String: 0554 => /7/6/0/
+Remaining String: 554 => Page Fault: 5 not found! => /6/0/5/
+Remaining String: 54 => /6/0/5/
+Remaining String: 4 => Page Fault: 4 not found! => /0/5/4/
+****************************************************************************
+Page Faults = 82
+****************************************************************************
+
+****************************************************************************
+Reference String: 531272664101726234661232411530
+Page Frame size: 3
+****************************************************************************
+Remaining String: 531272664101726234661232411530 => Page Fault: 5 not found! => /5/
+Remaining String: 31272664101726234661232411530 => Page Fault: 3 not found! => /5/3/
+Remaining String: 1272664101726234661232411530 => Page Fault: 1 not found! => /5/3/1/
+Remaining String: 272664101726234661232411530 => Page Fault: 2 not found! => /3/1/2/
+Remaining String: 72664101726234661232411530 => Page Fault: 7 not found! => /1/2/7/
+Remaining String: 2664101726234661232411530 => /1/2/7/
+Remaining String: 664101726234661232411530 => Page Fault: 6 not found! => /2/7/6/
+Remaining String: 64101726234661232411530 => /2/7/6/
+Remaining String: 4101726234661232411530 => Page Fault: 4 not found! => /7/6/4/
+Remaining String: 101726234661232411530 => Page Fault: 1 not found! => /6/4/1/
+Remaining String: 01726234661232411530 => Page Fault: 0 not found! => /4/1/0/
+Remaining String: 1726234661232411530 => /4/1/0/
+Remaining String: 726234661232411530 => Page Fault: 7 not found! => /1/0/7/
+Remaining String: 26234661232411530 => Page Fault: 2 not found! => /0/7/2/
+Remaining String: 6234661232411530 => Page Fault: 6 not found! => /7/2/6/
+Remaining String: 234661232411530 => /7/2/6/
+Remaining String: 34661232411530 => Page Fault: 3 not found! => /2/6/3/
+Remaining String: 4661232411530 => Page Fault: 4 not found! => /6/3/4/
+Remaining String: 661232411530 => /6/3/4/
+Remaining String: 61232411530 => /6/3/4/
+Remaining String: 1232411530 => Page Fault: 1 not found! => /3/4/1/
+Remaining String: 232411530 => Page Fault: 2 not found! => /4/1/2/
+Remaining String: 32411530 => Page Fault: 3 not found! => /1/2/3/
+Remaining String: 2411530 => /1/2/3/
+Remaining String: 411530 => Page Fault: 4 not found! => /2/3/4/
+Remaining String: 11530 => Page Fault: 1 not found! => /3/4/1/
+Remaining String: 1530 => /3/4/1/
+Remaining String: 530 => Page Fault: 5 not found! => /4/1/5/
+Remaining String: 30 => Page Fault: 3 not found! => /1/5/3/
+Remaining String: 0 => Page Fault: 0 not found! => /5/3/0/
+****************************************************************************
+Page Faults = 104
+****************************************************************************
+
+****************************************************************************
+Reference String: 371662444333164465265216024144
+Page Frame size: 3
+****************************************************************************
+Remaining String: 371662444333164465265216024144 => Page Fault: 3 not found! => /3/
+Remaining String: 71662444333164465265216024144 => Page Fault: 7 not found! => /3/7/
+Remaining String: 1662444333164465265216024144 => Page Fault: 1 not found! => /3/7/1/
+Remaining String: 662444333164465265216024144 => Page Fault: 6 not found! => /7/1/6/
+Remaining String: 62444333164465265216024144 => /7/1/6/
+Remaining String: 2444333164465265216024144 => Page Fault: 2 not found! => /1/6/2/
+Remaining String: 444333164465265216024144 => Page Fault: 4 not found! => /6/2/4/
+Remaining String: 44333164465265216024144 => /6/2/4/
+Remaining String: 4333164465265216024144 => /6/2/4/
+Remaining String: 333164465265216024144 => Page Fault: 3 not found! => /2/4/3/
+Remaining String: 33164465265216024144 => /2/4/3/
+Remaining String: 3164465265216024144 => /2/4/3/
+Remaining String: 164465265216024144 => Page Fault: 1 not found! => /4/3/1/
+Remaining String: 64465265216024144 => Page Fault: 6 not found! => /3/1/6/
+Remaining String: 4465265216024144 => Page Fault: 4 not found! => /1/6/4/
+Remaining String: 465265216024144 => /1/6/4/
+Remaining String: 65265216024144 => /1/6/4/
+Remaining String: 5265216024144 => Page Fault: 5 not found! => /6/4/5/
+Remaining String: 265216024144 => Page Fault: 2 not found! => /4/5/2/
+Remaining String: 65216024144 => Page Fault: 6 not found! => /5/2/6/
+Remaining String: 5216024144 => /5/2/6/
+Remaining String: 216024144 => /5/2/6/
+Remaining String: 16024144 => Page Fault: 1 not found! => /2/6/1/
+Remaining String: 6024144 => /2/6/1/
+Remaining String: 024144 => Page Fault: 0 not found! => /6/1/0/
+Remaining String: 24144 => Page Fault: 2 not found! => /1/0/2/
+Remaining String: 4144 => Page Fault: 4 not found! => /0/2/4/
+Remaining String: 144 => Page Fault: 1 not found! => /2/4/1/
+Remaining String: 44 => /2/4/1/
+Remaining String: 4 => /2/4/1/
+****************************************************************************
+Page Faults = 122
+****************************************************************************
+
+****************************************************************************
+Reference String: 352623111006102312736663172666
+Page Frame size: 3
+****************************************************************************
+Remaining String: 352623111006102312736663172666 => Page Fault: 3 not found! => /3/
+Remaining String: 52623111006102312736663172666 => Page Fault: 5 not found! => /3/5/
+Remaining String: 2623111006102312736663172666 => Page Fault: 2 not found! => /3/5/2/
+Remaining String: 623111006102312736663172666 => Page Fault: 6 not found! => /5/2/6/
+Remaining String: 23111006102312736663172666 => /5/2/6/
+Remaining String: 3111006102312736663172666 => Page Fault: 3 not found! => /2/6/3/
+Remaining String: 111006102312736663172666 => Page Fault: 1 not found! => /6/3/1/
+Remaining String: 11006102312736663172666 => /6/3/1/
+Remaining String: 1006102312736663172666 => /6/3/1/
+Remaining String: 006102312736663172666 => Page Fault: 0 not found! => /3/1/0/
+Remaining String: 06102312736663172666 => /3/1/0/
+Remaining String: 6102312736663172666 => Page Fault: 6 not found! => /1/0/6/
+Remaining String: 102312736663172666 => /1/0/6/
+Remaining String: 02312736663172666 => /1/0/6/
+Remaining String: 2312736663172666 => Page Fault: 2 not found! => /0/6/2/
+Remaining String: 312736663172666 => Page Fault: 3 not found! => /6/2/3/
+Remaining String: 12736663172666 => Page Fault: 1 not found! => /2/3/1/
+Remaining String: 2736663172666 => /2/3/1/
+Remaining String: 736663172666 => Page Fault: 7 not found! => /3/1/7/
+Remaining String: 36663172666 => /3/1/7/
+Remaining String: 6663172666 => Page Fault: 6 not found! => /1/7/6/
+Remaining String: 663172666 => /1/7/6/
+Remaining String: 63172666 => /1/7/6/
+Remaining String: 3172666 => Page Fault: 3 not found! => /7/6/3/
+Remaining String: 172666 => Page Fault: 1 not found! => /6/3/1/
+Remaining String: 72666 => Page Fault: 7 not found! => /3/1/7/
+Remaining String: 2666 => Page Fault: 2 not found! => /1/7/2/
+Remaining String: 666 => Page Fault: 6 not found! => /7/2/6/
+Remaining String: 66 => /7/2/6/
+Remaining String: 6 => /7/2/6/
+****************************************************************************
+Page Faults = 140
+****************************************************************************
+
+****************************************************************************
+Reference String: 510631274615547467340243206473
+Page Frame size: 3
+****************************************************************************
+Remaining String: 510631274615547467340243206473 => Page Fault: 5 not found! => /5/
+Remaining String: 10631274615547467340243206473 => Page Fault: 1 not found! => /5/1/
+Remaining String: 0631274615547467340243206473 => Page Fault: 0 not found! => /5/1/0/
+Remaining String: 631274615547467340243206473 => Page Fault: 6 not found! => /1/0/6/
+Remaining String: 31274615547467340243206473 => Page Fault: 3 not found! => /0/6/3/
+Remaining String: 1274615547467340243206473 => Page Fault: 1 not found! => /6/3/1/
+Remaining String: 274615547467340243206473 => Page Fault: 2 not found! => /3/1/2/
+Remaining String: 74615547467340243206473 => Page Fault: 7 not found! => /1/2/7/
+Remaining String: 4615547467340243206473 => Page Fault: 4 not found! => /2/7/4/
+Remaining String: 615547467340243206473 => Page Fault: 6 not found! => /7/4/6/
+Remaining String: 15547467340243206473 => Page Fault: 1 not found! => /4/6/1/
+Remaining String: 5547467340243206473 => Page Fault: 5 not found! => /6/1/5/
+Remaining String: 547467340243206473 => /6/1/5/
+Remaining String: 47467340243206473 => Page Fault: 4 not found! => /1/5/4/
+Remaining String: 7467340243206473 => Page Fault: 7 not found! => /5/4/7/
+Remaining String: 467340243206473 => /5/4/7/
+Remaining String: 67340243206473 => Page Fault: 6 not found! => /4/7/6/
+Remaining String: 7340243206473 => /4/7/6/
+Remaining String: 340243206473 => Page Fault: 3 not found! => /7/6/3/
+Remaining String: 40243206473 => Page Fault: 4 not found! => /6/3/4/
+Remaining String: 0243206473 => Page Fault: 0 not found! => /3/4/0/
+Remaining String: 243206473 => Page Fault: 2 not found! => /4/0/2/
+Remaining String: 43206473 => /4/0/2/
+Remaining String: 3206473 => Page Fault: 3 not found! => /0/2/3/
+Remaining String: 206473 => /0/2/3/
+Remaining String: 06473 => /0/2/3/
+Remaining String: 6473 => Page Fault: 6 not found! => /2/3/6/
+Remaining String: 473 => Page Fault: 4 not found! => /3/6/4/
+Remaining String: 73 => Page Fault: 7 not found! => /6/4/7/
+Remaining String: 3 => Page Fault: 3 not found! => /4/7/3/
+****************************************************************************
+Page Faults = 164
+****************************************************************************
+
+****************************************************************************
+Reference String: 444103367305510275220163007302
+Page Frame size: 3
+****************************************************************************
+Remaining String: 444103367305510275220163007302 => Page Fault: 4 not found! => /4/
+Remaining String: 44103367305510275220163007302 => /4/
+Remaining String: 4103367305510275220163007302 => /4/
+Remaining String: 103367305510275220163007302 => Page Fault: 1 not found! => /4/1/
+Remaining String: 03367305510275220163007302 => Page Fault: 0 not found! => /4/1/0/
+Remaining String: 3367305510275220163007302 => Page Fault: 3 not found! => /1/0/3/
+Remaining String: 367305510275220163007302 => /1/0/3/
+Remaining String: 67305510275220163007302 => Page Fault: 6 not found! => /0/3/6/
+Remaining String: 7305510275220163007302 => Page Fault: 7 not found! => /3/6/7/
+Remaining String: 305510275220163007302 => /3/6/7/
+Remaining String: 05510275220163007302 => Page Fault: 0 not found! => /6/7/0/
+Remaining String: 5510275220163007302 => Page Fault: 5 not found! => /7/0/5/
+Remaining String: 510275220163007302 => /7/0/5/
+Remaining String: 10275220163007302 => Page Fault: 1 not found! => /0/5/1/
+Remaining String: 0275220163007302 => /0/5/1/
+Remaining String: 275220163007302 => Page Fault: 2 not found! => /5/1/2/
+Remaining String: 75220163007302 => Page Fault: 7 not found! => /1/2/7/
+Remaining String: 5220163007302 => Page Fault: 5 not found! => /2/7/5/
+Remaining String: 220163007302 => /2/7/5/
+Remaining String: 20163007302 => /2/7/5/
+Remaining String: 0163007302 => Page Fault: 0 not found! => /7/5/0/
+Remaining String: 163007302 => Page Fault: 1 not found! => /5/0/1/
+Remaining String: 63007302 => Page Fault: 6 not found! => /0/1/6/
+Remaining String: 3007302 => Page Fault: 3 not found! => /1/6/3/
+Remaining String: 007302 => Page Fault: 0 not found! => /6/3/0/
+Remaining String: 07302 => /6/3/0/
+Remaining String: 7302 => Page Fault: 7 not found! => /3/0/7/
+Remaining String: 302 => /3/0/7/
+Remaining String: 02 => /3/0/7/
+Remaining String: 2 => Page Fault: 2 not found! => /0/7/2/
+****************************************************************************
+Page Faults = 183
+****************************************************************************
+
+****************************************************************************
+Reference String: 000350226603433514647000025405
+Page Frame size: 3
+****************************************************************************
+Remaining String: 000350226603433514647000025405 => Page Fault: 0 not found! => /0/
+Remaining String: 00350226603433514647000025405 => /0/
+Remaining String: 0350226603433514647000025405 => /0/
+Remaining String: 350226603433514647000025405 => Page Fault: 3 not found! => /0/3/
+Remaining String: 50226603433514647000025405 => Page Fault: 5 not found! => /0/3/5/
+Remaining String: 0226603433514647000025405 => /0/3/5/
+Remaining String: 226603433514647000025405 => Page Fault: 2 not found! => /3/5/2/
+Remaining String: 26603433514647000025405 => /3/5/2/
+Remaining String: 6603433514647000025405 => Page Fault: 6 not found! => /5/2/6/
+Remaining String: 603433514647000025405 => /5/2/6/
+Remaining String: 03433514647000025405 => Page Fault: 0 not found! => /2/6/0/
+Remaining String: 3433514647000025405 => Page Fault: 3 not found! => /6/0/3/
+Remaining String: 433514647000025405 => Page Fault: 4 not found! => /0/3/4/
+Remaining String: 33514647000025405 => /0/3/4/
+Remaining String: 3514647000025405 => /0/3/4/
+Remaining String: 514647000025405 => Page Fault: 5 not found! => /3/4/5/
+Remaining String: 14647000025405 => Page Fault: 1 not found! => /4/5/1/
+Remaining String: 4647000025405 => /4/5/1/
+Remaining String: 647000025405 => Page Fault: 6 not found! => /5/1/6/
+Remaining String: 47000025405 => Page Fault: 4 not found! => /1/6/4/
+Remaining String: 7000025405 => Page Fault: 7 not found! => /6/4/7/
+Remaining String: 000025405 => Page Fault: 0 not found! => /4/7/0/
+Remaining String: 00025405 => /4/7/0/
+Remaining String: 0025405 => /4/7/0/
+Remaining String: 025405 => /4/7/0/
+Remaining String: 25405 => Page Fault: 2 not found! => /7/0/2/
+Remaining String: 5405 => Page Fault: 5 not found! => /0/2/5/
+Remaining String: 405 => Page Fault: 4 not found! => /2/5/4/
+Remaining String: 05 => Page Fault: 0 not found! => /5/4/0/
+Remaining String: 5 => /5/4/0/
+****************************************************************************
+Page Faults = 201
+****************************************************************************
+
+****************************************************************************
+Reference String: 374754440101002366647267635261
+Page Frame size: 3
+****************************************************************************
+Remaining String: 374754440101002366647267635261 => Page Fault: 3 not found! => /3/
+Remaining String: 74754440101002366647267635261 => Page Fault: 7 not found! => /3/7/
+Remaining String: 4754440101002366647267635261 => Page Fault: 4 not found! => /3/7/4/
+Remaining String: 754440101002366647267635261 => /3/7/4/
+Remaining String: 54440101002366647267635261 => Page Fault: 5 not found! => /7/4/5/
+Remaining String: 4440101002366647267635261 => /7/4/5/
+Remaining String: 440101002366647267635261 => /7/4/5/
+Remaining String: 40101002366647267635261 => /7/4/5/
+Remaining String: 0101002366647267635261 => Page Fault: 0 not found! => /4/5/0/
+Remaining String: 101002366647267635261 => Page Fault: 1 not found! => /5/0/1/
+Remaining String: 01002366647267635261 => /5/0/1/
+Remaining String: 1002366647267635261 => /5/0/1/
+Remaining String: 002366647267635261 => /5/0/1/
+Remaining String: 02366647267635261 => /5/0/1/
+Remaining String: 2366647267635261 => Page Fault: 2 not found! => /0/1/2/
+Remaining String: 366647267635261 => Page Fault: 3 not found! => /1/2/3/
+Remaining String: 66647267635261 => Page Fault: 6 not found! => /2/3/6/
+Remaining String: 6647267635261 => /2/3/6/
+Remaining String: 647267635261 => /2/3/6/
+Remaining String: 47267635261 => Page Fault: 4 not found! => /3/6/4/
+Remaining String: 7267635261 => Page Fault: 7 not found! => /6/4/7/
+Remaining String: 267635261 => Page Fault: 2 not found! => /4/7/2/
+Remaining String: 67635261 => Page Fault: 6 not found! => /7/2/6/
+Remaining String: 7635261 => /7/2/6/
+Remaining String: 635261 => /7/2/6/
+Remaining String: 35261 => Page Fault: 3 not found! => /2/6/3/
+Remaining String: 5261 => Page Fault: 5 not found! => /6/3/5/
+Remaining String: 261 => Page Fault: 2 not found! => /3/5/2/
+Remaining String: 61 => Page Fault: 6 not found! => /5/2/6/
+Remaining String: 1 => Page Fault: 1 not found! => /2/6/1/
+****************************************************************************
+Page Faults = 219
+****************************************************************************
+
+****************************************************************************
+Reference String: 521203764574217613446721531545
+Page Frame size: 3
+****************************************************************************
+Remaining String: 521203764574217613446721531545 => Page Fault: 5 not found! => /5/
+Remaining String: 21203764574217613446721531545 => Page Fault: 2 not found! => /5/2/
+Remaining String: 1203764574217613446721531545 => Page Fault: 1 not found! => /5/2/1/
+Remaining String: 203764574217613446721531545 => /5/2/1/
+Remaining String: 03764574217613446721531545 => Page Fault: 0 not found! => /2/1/0/
+Remaining String: 3764574217613446721531545 => Page Fault: 3 not found! => /1/0/3/
+Remaining String: 764574217613446721531545 => Page Fault: 7 not found! => /0/3/7/
+Remaining String: 64574217613446721531545 => Page Fault: 6 not found! => /3/7/6/
+Remaining String: 4574217613446721531545 => Page Fault: 4 not found! => /7/6/4/
+Remaining String: 574217613446721531545 => Page Fault: 5 not found! => /6/4/5/
+Remaining String: 74217613446721531545 => Page Fault: 7 not found! => /4/5/7/
+Remaining String: 4217613446721531545 => /4/5/7/
+Remaining String: 217613446721531545 => Page Fault: 2 not found! => /5/7/2/
+Remaining String: 17613446721531545 => Page Fault: 1 not found! => /7/2/1/
+Remaining String: 7613446721531545 => /7/2/1/
+Remaining String: 613446721531545 => Page Fault: 6 not found! => /2/1/6/
+Remaining String: 13446721531545 => /2/1/6/
+Remaining String: 3446721531545 => Page Fault: 3 not found! => /1/6/3/
+Remaining String: 446721531545 => Page Fault: 4 not found! => /6/3/4/
+Remaining String: 46721531545 => /6/3/4/
+Remaining String: 6721531545 => /6/3/4/
+Remaining String: 721531545 => Page Fault: 7 not found! => /3/4/7/
+Remaining String: 21531545 => Page Fault: 2 not found! => /4/7/2/
+Remaining String: 1531545 => Page Fault: 1 not found! => /7/2/1/
+Remaining String: 531545 => Page Fault: 5 not found! => /2/1/5/
+Remaining String: 31545 => Page Fault: 3 not found! => /1/5/3/
+Remaining String: 1545 => /1/5/3/
+Remaining String: 545 => /1/5/3/
+Remaining String: 45 => Page Fault: 4 not found! => /5/3/4/
+Remaining String: 5 => /5/3/4/
+****************************************************************************
+Page Faults = 240
+****************************************************************************
+
+****************************************************************************
+Reference String: 132251660442212021515316201115
+Page Frame size: 3
+****************************************************************************
+Remaining String: 132251660442212021515316201115 => Page Fault: 1 not found! => /1/
+Remaining String: 32251660442212021515316201115 => Page Fault: 3 not found! => /1/3/
+Remaining String: 2251660442212021515316201115 => Page Fault: 2 not found! => /1/3/2/
+Remaining String: 251660442212021515316201115 => /1/3/2/
+Remaining String: 51660442212021515316201115 => Page Fault: 5 not found! => /3/2/5/
+Remaining String: 1660442212021515316201115 => Page Fault: 1 not found! => /2/5/1/
+Remaining String: 660442212021515316201115 => Page Fault: 6 not found! => /5/1/6/
+Remaining String: 60442212021515316201115 => /5/1/6/
+Remaining String: 0442212021515316201115 => Page Fault: 0 not found! => /1/6/0/
+Remaining String: 442212021515316201115 => Page Fault: 4 not found! => /6/0/4/
+Remaining String: 42212021515316201115 => /6/0/4/
+Remaining String: 2212021515316201115 => Page Fault: 2 not found! => /0/4/2/
+Remaining String: 212021515316201115 => /0/4/2/
+Remaining String: 12021515316201115 => Page Fault: 1 not found! => /4/2/1/
+Remaining String: 2021515316201115 => /4/2/1/
+Remaining String: 021515316201115 => Page Fault: 0 not found! => /2/1/0/
+Remaining String: 21515316201115 => /2/1/0/
+Remaining String: 1515316201115 => /2/1/0/
+Remaining String: 515316201115 => Page Fault: 5 not found! => /1/0/5/
+Remaining String: 15316201115 => /1/0/5/
+Remaining String: 5316201115 => /1/0/5/
+Remaining String: 316201115 => Page Fault: 3 not found! => /0/5/3/
+Remaining String: 16201115 => Page Fault: 1 not found! => /5/3/1/
+Remaining String: 6201115 => Page Fault: 6 not found! => /3/1/6/
+Remaining String: 201115 => Page Fault: 2 not found! => /1/6/2/
+Remaining String: 01115 => Page Fault: 0 not found! => /6/2/0/
+Remaining String: 1115 => Page Fault: 1 not found! => /2/0/1/
+Remaining String: 115 => /2/0/1/
+Remaining String: 15 => /2/0/1/
+Remaining String: 5 => Page Fault: 5 not found! => /0/1/5/
+****************************************************************************
+Page Faults = 259
+****************************************************************************
+
+****************************************************************************
+Reference String: 016065327021142141445247760142
+Page Frame size: 3
+****************************************************************************
+Remaining String: 016065327021142141445247760142 => Page Fault: 0 not found! => /0/
+Remaining String: 16065327021142141445247760142 => Page Fault: 1 not found! => /0/1/
+Remaining String: 6065327021142141445247760142 => Page Fault: 6 not found! => /0/1/6/
+Remaining String: 065327021142141445247760142 => /0/1/6/
+Remaining String: 65327021142141445247760142 => /0/1/6/
+Remaining String: 5327021142141445247760142 => Page Fault: 5 not found! => /1/6/5/
+Remaining String: 327021142141445247760142 => Page Fault: 3 not found! => /6/5/3/
+Remaining String: 27021142141445247760142 => Page Fault: 2 not found! => /5/3/2/
+Remaining String: 7021142141445247760142 => Page Fault: 7 not found! => /3/2/7/
+Remaining String: 021142141445247760142 => Page Fault: 0 not found! => /2/7/0/
+Remaining String: 21142141445247760142 => /2/7/0/
+Remaining String: 1142141445247760142 => Page Fault: 1 not found! => /7/0/1/
+Remaining String: 142141445247760142 => /7/0/1/
+Remaining String: 42141445247760142 => Page Fault: 4 not found! => /0/1/4/
+Remaining String: 2141445247760142 => Page Fault: 2 not found! => /1/4/2/
+Remaining String: 141445247760142 => /1/4/2/
+Remaining String: 41445247760142 => /1/4/2/
+Remaining String: 1445247760142 => /1/4/2/
+Remaining String: 445247760142 => /1/4/2/
+Remaining String: 45247760142 => /1/4/2/
+Remaining String: 5247760142 => Page Fault: 5 not found! => /4/2/5/
+Remaining String: 247760142 => /4/2/5/
+Remaining String: 47760142 => /4/2/5/
+Remaining String: 7760142 => Page Fault: 7 not found! => /2/5/7/
+Remaining String: 760142 => /2/5/7/
+Remaining String: 60142 => Page Fault: 6 not found! => /5/7/6/
+Remaining String: 0142 => Page Fault: 0 not found! => /7/6/0/
+Remaining String: 142 => Page Fault: 1 not found! => /6/0/1/
+Remaining String: 42 => Page Fault: 4 not found! => /0/1/4/
+Remaining String: 2 => Page Fault: 2 not found! => /1/4/2/
+****************************************************************************
+Page Faults = 277
+****************************************************************************
+
+****************************************************************************
+Reference String: 733562652710553061074231035537
+Page Frame size: 3
+****************************************************************************
+Remaining String: 733562652710553061074231035537 => Page Fault: 7 not found! => /7/
+Remaining String: 33562652710553061074231035537 => Page Fault: 3 not found! => /7/3/
+Remaining String: 3562652710553061074231035537 => /7/3/
+Remaining String: 562652710553061074231035537 => Page Fault: 5 not found! => /7/3/5/
+Remaining String: 62652710553061074231035537 => Page Fault: 6 not found! => /3/5/6/
+Remaining String: 2652710553061074231035537 => Page Fault: 2 not found! => /5/6/2/
+Remaining String: 652710553061074231035537 => /5/6/2/
+Remaining String: 52710553061074231035537 => /5/6/2/
+Remaining String: 2710553061074231035537 => /5/6/2/
+Remaining String: 710553061074231035537 => Page Fault: 7 not found! => /6/2/7/
+Remaining String: 10553061074231035537 => Page Fault: 1 not found! => /2/7/1/
+Remaining String: 0553061074231035537 => Page Fault: 0 not found! => /7/1/0/
+Remaining String: 553061074231035537 => Page Fault: 5 not found! => /1/0/5/
+Remaining String: 53061074231035537 => /1/0/5/
+Remaining String: 3061074231035537 => Page Fault: 3 not found! => /0/5/3/
+Remaining String: 061074231035537 => /0/5/3/
+Remaining String: 61074231035537 => Page Fault: 6 not found! => /5/3/6/
+Remaining String: 1074231035537 => Page Fault: 1 not found! => /3/6/1/
+Remaining String: 074231035537 => Page Fault: 0 not found! => /6/1/0/
+Remaining String: 74231035537 => Page Fault: 7 not found! => /1/0/7/
+Remaining String: 4231035537 => Page Fault: 4 not found! => /0/7/4/
+Remaining String: 231035537 => Page Fault: 2 not found! => /7/4/2/
+Remaining String: 31035537 => Page Fault: 3 not found! => /4/2/3/
+Remaining String: 1035537 => Page Fault: 1 not found! => /2/3/1/
+Remaining String: 035537 => Page Fault: 0 not found! => /3/1/0/
+Remaining String: 35537 => /3/1/0/
+Remaining String: 5537 => Page Fault: 5 not found! => /1/0/5/
+Remaining String: 537 => /1/0/5/
+Remaining String: 37 => Page Fault: 3 not found! => /0/5/3/
+Remaining String: 7 => Page Fault: 7 not found! => /5/3/7/
+****************************************************************************
+Page Faults = 299
+****************************************************************************
+
+****************************************************************************
+Reference String: 771706434227171270735673436035
+Page Frame size: 3
+****************************************************************************
+Remaining String: 771706434227171270735673436035 => Page Fault: 7 not found! => /7/
+Remaining String: 71706434227171270735673436035 => /7/
+Remaining String: 1706434227171270735673436035 => Page Fault: 1 not found! => /7/1/
+Remaining String: 706434227171270735673436035 => /7/1/
+Remaining String: 06434227171270735673436035 => Page Fault: 0 not found! => /7/1/0/
+Remaining String: 6434227171270735673436035 => Page Fault: 6 not found! => /1/0/6/
+Remaining String: 434227171270735673436035 => Page Fault: 4 not found! => /0/6/4/
+Remaining String: 34227171270735673436035 => Page Fault: 3 not found! => /6/4/3/
+Remaining String: 4227171270735673436035 => /6/4/3/
+Remaining String: 227171270735673436035 => Page Fault: 2 not found! => /4/3/2/
+Remaining String: 27171270735673436035 => /4/3/2/
+Remaining String: 7171270735673436035 => Page Fault: 7 not found! => /3/2/7/
+Remaining String: 171270735673436035 => Page Fault: 1 not found! => /2/7/1/
+Remaining String: 71270735673436035 => /2/7/1/
+Remaining String: 1270735673436035 => /2/7/1/
+Remaining String: 270735673436035 => /2/7/1/
+Remaining String: 70735673436035 => /2/7/1/
+Remaining String: 0735673436035 => Page Fault: 0 not found! => /7/1/0/
+Remaining String: 735673436035 => /7/1/0/
+Remaining String: 35673436035 => Page Fault: 3 not found! => /1/0/3/
+Remaining String: 5673436035 => Page Fault: 5 not found! => /0/3/5/
+Remaining String: 673436035 => Page Fault: 6 not found! => /3/5/6/
+Remaining String: 73436035 => Page Fault: 7 not found! => /5/6/7/
+Remaining String: 3436035 => Page Fault: 3 not found! => /6/7/3/
+Remaining String: 436035 => Page Fault: 4 not found! => /7/3/4/
+Remaining String: 36035 => /7/3/4/
+Remaining String: 6035 => Page Fault: 6 not found! => /3/4/6/
+Remaining String: 035 => Page Fault: 0 not found! => /4/6/0/
+Remaining String: 35 => Page Fault: 3 not found! => /6/0/3/
+Remaining String: 5 => Page Fault: 5 not found! => /0/3/5/
+****************************************************************************
+Page Faults = 319
+****************************************************************************
+
+****************************************************************************
+Reference String: 517750305424547633604573050731
+Page Frame size: 3
+****************************************************************************
+Remaining String: 517750305424547633604573050731 => Page Fault: 5 not found! => /5/
+Remaining String: 17750305424547633604573050731 => Page Fault: 1 not found! => /5/1/
+Remaining String: 7750305424547633604573050731 => Page Fault: 7 not found! => /5/1/7/
+Remaining String: 750305424547633604573050731 => /5/1/7/
+Remaining String: 50305424547633604573050731 => /5/1/7/
+Remaining String: 0305424547633604573050731 => Page Fault: 0 not found! => /1/7/0/
+Remaining String: 305424547633604573050731 => Page Fault: 3 not found! => /7/0/3/
+Remaining String: 05424547633604573050731 => /7/0/3/
+Remaining String: 5424547633604573050731 => Page Fault: 5 not found! => /0/3/5/
+Remaining String: 424547633604573050731 => Page Fault: 4 not found! => /3/5/4/
+Remaining String: 24547633604573050731 => Page Fault: 2 not found! => /5/4/2/
+Remaining String: 4547633604573050731 => /5/4/2/
+Remaining String: 547633604573050731 => /5/4/2/
+Remaining String: 47633604573050731 => /5/4/2/
+Remaining String: 7633604573050731 => Page Fault: 7 not found! => /4/2/7/
+Remaining String: 633604573050731 => Page Fault: 6 not found! => /2/7/6/
+Remaining String: 33604573050731 => Page Fault: 3 not found! => /7/6/3/
+Remaining String: 3604573050731 => /7/6/3/
+Remaining String: 604573050731 => /7/6/3/
+Remaining String: 04573050731 => Page Fault: 0 not found! => /6/3/0/
+Remaining String: 4573050731 => Page Fault: 4 not found! => /3/0/4/
+Remaining String: 573050731 => Page Fault: 5 not found! => /0/4/5/
+Remaining String: 73050731 => Page Fault: 7 not found! => /4/5/7/
+Remaining String: 3050731 => Page Fault: 3 not found! => /5/7/3/
+Remaining String: 050731 => Page Fault: 0 not found! => /7/3/0/
+Remaining String: 50731 => Page Fault: 5 not found! => /3/0/5/
+Remaining String: 0731 => /3/0/5/
+Remaining String: 731 => Page Fault: 7 not found! => /0/5/7/
+Remaining String: 31 => Page Fault: 3 not found! => /5/7/3/
+Remaining String: 1 => Page Fault: 1 not found! => /7/3/1/
+****************************************************************************
+Page Faults = 340
+****************************************************************************
+
+****************************************************************************
+Reference String: 126743103705056771610552126247
+Page Frame size: 3
+****************************************************************************
+Remaining String: 126743103705056771610552126247 => Page Fault: 1 not found! => /1/
+Remaining String: 26743103705056771610552126247 => Page Fault: 2 not found! => /1/2/
+Remaining String: 6743103705056771610552126247 => Page Fault: 6 not found! => /1/2/6/
+Remaining String: 743103705056771610552126247 => Page Fault: 7 not found! => /2/6/7/
+Remaining String: 43103705056771610552126247 => Page Fault: 4 not found! => /6/7/4/
+Remaining String: 3103705056771610552126247 => Page Fault: 3 not found! => /7/4/3/
+Remaining String: 103705056771610552126247 => Page Fault: 1 not found! => /4/3/1/
+Remaining String: 03705056771610552126247 => Page Fault: 0 not found! => /3/1/0/
+Remaining String: 3705056771610552126247 => /3/1/0/
+Remaining String: 705056771610552126247 => Page Fault: 7 not found! => /1/0/7/
+Remaining String: 05056771610552126247 => /1/0/7/
+Remaining String: 5056771610552126247 => Page Fault: 5 not found! => /0/7/5/
+Remaining String: 056771610552126247 => /0/7/5/
+Remaining String: 56771610552126247 => /0/7/5/
+Remaining String: 6771610552126247 => Page Fault: 6 not found! => /7/5/6/
+Remaining String: 771610552126247 => /7/5/6/
+Remaining String: 71610552126247 => /7/5/6/
+Remaining String: 1610552126247 => Page Fault: 1 not found! => /5/6/1/
+Remaining String: 610552126247 => /5/6/1/
+Remaining String: 10552126247 => /5/6/1/
+Remaining String: 0552126247 => Page Fault: 0 not found! => /6/1/0/
+Remaining String: 552126247 => Page Fault: 5 not found! => /1/0/5/
+Remaining String: 52126247 => /1/0/5/
+Remaining String: 2126247 => Page Fault: 2 not found! => /0/5/2/
+Remaining String: 126247 => Page Fault: 1 not found! => /5/2/1/
+Remaining String: 26247 => /5/2/1/
+Remaining String: 6247 => Page Fault: 6 not found! => /2/1/6/
+Remaining String: 247 => /2/1/6/
+Remaining String: 47 => Page Fault: 4 not found! => /1/6/4/
+Remaining String: 7 => Page Fault: 7 not found! => /6/4/7/
+****************************************************************************
+Page Faults = 359
+****************************************************************************
+
+****************************************************************************
+Reference String: 151241035553635662132737636734
+Page Frame size: 3
+****************************************************************************
+Remaining String: 151241035553635662132737636734 => Page Fault: 1 not found! => /1/
+Remaining String: 51241035553635662132737636734 => Page Fault: 5 not found! => /1/5/
+Remaining String: 1241035553635662132737636734 => /1/5/
+Remaining String: 241035553635662132737636734 => Page Fault: 2 not found! => /1/5/2/
+Remaining String: 41035553635662132737636734 => Page Fault: 4 not found! => /5/2/4/
+Remaining String: 1035553635662132737636734 => Page Fault: 1 not found! => /2/4/1/
+Remaining String: 035553635662132737636734 => Page Fault: 0 not found! => /4/1/0/
+Remaining String: 35553635662132737636734 => Page Fault: 3 not found! => /1/0/3/
+Remaining String: 5553635662132737636734 => Page Fault: 5 not found! => /0/3/5/
+Remaining String: 553635662132737636734 => /0/3/5/
+Remaining String: 53635662132737636734 => /0/3/5/
+Remaining String: 3635662132737636734 => /0/3/5/
+Remaining String: 635662132737636734 => Page Fault: 6 not found! => /3/5/6/
+Remaining String: 35662132737636734 => /3/5/6/
+Remaining String: 5662132737636734 => /3/5/6/
+Remaining String: 662132737636734 => /3/5/6/
+Remaining String: 62132737636734 => /3/5/6/
+Remaining String: 2132737636734 => Page Fault: 2 not found! => /5/6/2/
+Remaining String: 132737636734 => Page Fault: 1 not found! => /6/2/1/
+Remaining String: 32737636734 => Page Fault: 3 not found! => /2/1/3/
+Remaining String: 2737636734 => /2/1/3/
+Remaining String: 737636734 => Page Fault: 7 not found! => /1/3/7/
+Remaining String: 37636734 => /1/3/7/
+Remaining String: 7636734 => /1/3/7/
+Remaining String: 636734 => Page Fault: 6 not found! => /3/7/6/
+Remaining String: 36734 => /3/7/6/
+Remaining String: 6734 => /3/7/6/
+Remaining String: 734 => /3/7/6/
+Remaining String: 34 => /3/7/6/
+Remaining String: 4 => Page Fault: 4 not found! => /7/6/4/
+****************************************************************************
+Page Faults = 374
+****************************************************************************
+
+****************************************************************************
+Reference String: 757525414464167035706250115137
+Page Frame size: 3
+****************************************************************************
+Remaining String: 757525414464167035706250115137 => Page Fault: 7 not found! => /7/
+Remaining String: 57525414464167035706250115137 => Page Fault: 5 not found! => /7/5/
+Remaining String: 7525414464167035706250115137 => /7/5/
+Remaining String: 525414464167035706250115137 => /7/5/
+Remaining String: 25414464167035706250115137 => Page Fault: 2 not found! => /7/5/2/
+Remaining String: 5414464167035706250115137 => /7/5/2/
+Remaining String: 414464167035706250115137 => Page Fault: 4 not found! => /5/2/4/
+Remaining String: 14464167035706250115137 => Page Fault: 1 not found! => /2/4/1/
+Remaining String: 4464167035706250115137 => /2/4/1/
+Remaining String: 464167035706250115137 => /2/4/1/
+Remaining String: 64167035706250115137 => Page Fault: 6 not found! => /4/1/6/
+Remaining String: 4167035706250115137 => /4/1/6/
+Remaining String: 167035706250115137 => /4/1/6/
+Remaining String: 67035706250115137 => /4/1/6/
+Remaining String: 7035706250115137 => Page Fault: 7 not found! => /1/6/7/
+Remaining String: 035706250115137 => Page Fault: 0 not found! => /6/7/0/
+Remaining String: 35706250115137 => Page Fault: 3 not found! => /7/0/3/
+Remaining String: 5706250115137 => Page Fault: 5 not found! => /0/3/5/
+Remaining String: 706250115137 => Page Fault: 7 not found! => /3/5/7/
+Remaining String: 06250115137 => Page Fault: 0 not found! => /5/7/0/
+Remaining String: 6250115137 => Page Fault: 6 not found! => /7/0/6/
+Remaining String: 250115137 => Page Fault: 2 not found! => /0/6/2/
+Remaining String: 50115137 => Page Fault: 5 not found! => /6/2/5/
+Remaining String: 0115137 => Page Fault: 0 not found! => /2/5/0/
+Remaining String: 115137 => Page Fault: 1 not found! => /5/0/1/
+Remaining String: 15137 => /5/0/1/
+Remaining String: 5137 => /5/0/1/
+Remaining String: 137 => /5/0/1/
+Remaining String: 37 => Page Fault: 3 not found! => /0/1/3/
+Remaining String: 7 => Page Fault: 7 not found! => /1/3/7/
+****************************************************************************
+Page Faults = 393
+****************************************************************************
+
+****************************************************************************
+Reference String: 151241412061424246742011742413
+Page Frame size: 3
+****************************************************************************
+Remaining String: 151241412061424246742011742413 => Page Fault: 1 not found! => /1/
+Remaining String: 51241412061424246742011742413 => Page Fault: 5 not found! => /1/5/
+Remaining String: 1241412061424246742011742413 => /1/5/
+Remaining String: 241412061424246742011742413 => Page Fault: 2 not found! => /1/5/2/
+Remaining String: 41412061424246742011742413 => Page Fault: 4 not found! => /5/2/4/
+Remaining String: 1412061424246742011742413 => Page Fault: 1 not found! => /2/4/1/
+Remaining String: 412061424246742011742413 => /2/4/1/
+Remaining String: 12061424246742011742413 => /2/4/1/
+Remaining String: 2061424246742011742413 => /2/4/1/
+Remaining String: 061424246742011742413 => Page Fault: 0 not found! => /4/1/0/
+Remaining String: 61424246742011742413 => Page Fault: 6 not found! => /1/0/6/
+Remaining String: 1424246742011742413 => /1/0/6/
+Remaining String: 424246742011742413 => Page Fault: 4 not found! => /0/6/4/
+Remaining String: 24246742011742413 => Page Fault: 2 not found! => /6/4/2/
+Remaining String: 4246742011742413 => /6/4/2/
+Remaining String: 246742011742413 => /6/4/2/
+Remaining String: 46742011742413 => /6/4/2/
+Remaining String: 6742011742413 => /6/4/2/
+Remaining String: 742011742413 => Page Fault: 7 not found! => /4/2/7/
+Remaining String: 42011742413 => /4/2/7/
+Remaining String: 2011742413 => /4/2/7/
+Remaining String: 011742413 => Page Fault: 0 not found! => /2/7/0/
+Remaining String: 11742413 => Page Fault: 1 not found! => /7/0/1/
+Remaining String: 1742413 => /7/0/1/
+Remaining String: 742413 => /7/0/1/
+Remaining String: 42413 => Page Fault: 4 not found! => /0/1/4/
+Remaining String: 2413 => Page Fault: 2 not found! => /1/4/2/
+Remaining String: 413 => /1/4/2/
+Remaining String: 13 => /1/4/2/
+Remaining String: 3 => Page Fault: 3 not found! => /4/2/3/
+****************************************************************************
+Page Faults = 408
+****************************************************************************
+
+****************************************************************************
+Reference String: 771447305024203305031525567752
+Page Frame size: 3
+****************************************************************************
+Remaining String: 771447305024203305031525567752 => Page Fault: 7 not found! => /7/
+Remaining String: 71447305024203305031525567752 => /7/
+Remaining String: 1447305024203305031525567752 => Page Fault: 1 not found! => /7/1/
+Remaining String: 447305024203305031525567752 => Page Fault: 4 not found! => /7/1/4/
+Remaining String: 47305024203305031525567752 => /7/1/4/
+Remaining String: 7305024203305031525567752 => /7/1/4/
+Remaining String: 305024203305031525567752 => Page Fault: 3 not found! => /1/4/3/
+Remaining String: 05024203305031525567752 => Page Fault: 0 not found! => /4/3/0/
+Remaining String: 5024203305031525567752 => Page Fault: 5 not found! => /3/0/5/
+Remaining String: 024203305031525567752 => /3/0/5/
+Remaining String: 24203305031525567752 => Page Fault: 2 not found! => /0/5/2/
+Remaining String: 4203305031525567752 => Page Fault: 4 not found! => /5/2/4/
+Remaining String: 203305031525567752 => /5/2/4/
+Remaining String: 03305031525567752 => Page Fault: 0 not found! => /2/4/0/
+Remaining String: 3305031525567752 => Page Fault: 3 not found! => /4/0/3/
+Remaining String: 305031525567752 => /4/0/3/
+Remaining String: 05031525567752 => /4/0/3/
+Remaining String: 5031525567752 => Page Fault: 5 not found! => /0/3/5/
+Remaining String: 031525567752 => /0/3/5/
+Remaining String: 31525567752 => /0/3/5/
+Remaining String: 1525567752 => Page Fault: 1 not found! => /3/5/1/
+Remaining String: 525567752 => /3/5/1/
+Remaining String: 25567752 => Page Fault: 2 not found! => /5/1/2/
+Remaining String: 5567752 => /5/1/2/
+Remaining String: 567752 => /5/1/2/
+Remaining String: 67752 => Page Fault: 6 not found! => /1/2/6/
+Remaining String: 7752 => Page Fault: 7 not found! => /2/6/7/
+Remaining String: 752 => /2/6/7/
+Remaining String: 52 => Page Fault: 5 not found! => /6/7/5/
+Remaining String: 2 => Page Fault: 2 not found! => /7/5/2/
+****************************************************************************
+Page Faults = 425
+****************************************************************************
+
+****************************************************************************
+Reference String: 107230223557253617132734775766
+Page Frame size: 3
+****************************************************************************
+Remaining String: 107230223557253617132734775766 => Page Fault: 1 not found! => /1/
+Remaining String: 07230223557253617132734775766 => Page Fault: 0 not found! => /1/0/
+Remaining String: 7230223557253617132734775766 => Page Fault: 7 not found! => /1/0/7/
+Remaining String: 230223557253617132734775766 => Page Fault: 2 not found! => /0/7/2/
+Remaining String: 30223557253617132734775766 => Page Fault: 3 not found! => /7/2/3/
+Remaining String: 0223557253617132734775766 => Page Fault: 0 not found! => /2/3/0/
+Remaining String: 223557253617132734775766 => /2/3/0/
+Remaining String: 23557253617132734775766 => /2/3/0/
+Remaining String: 3557253617132734775766 => /2/3/0/
+Remaining String: 557253617132734775766 => Page Fault: 5 not found! => /3/0/5/
+Remaining String: 57253617132734775766 => /3/0/5/
+Remaining String: 7253617132734775766 => Page Fault: 7 not found! => /0/5/7/
+Remaining String: 253617132734775766 => Page Fault: 2 not found! => /5/7/2/
+Remaining String: 53617132734775766 => /5/7/2/
+Remaining String: 3617132734775766 => Page Fault: 3 not found! => /7/2/3/
+Remaining String: 617132734775766 => Page Fault: 6 not found! => /2/3/6/
+Remaining String: 17132734775766 => Page Fault: 1 not found! => /3/6/1/
+Remaining String: 7132734775766 => Page Fault: 7 not found! => /6/1/7/
+Remaining String: 132734775766 => /6/1/7/
+Remaining String: 32734775766 => Page Fault: 3 not found! => /1/7/3/
+Remaining String: 2734775766 => Page Fault: 2 not found! => /7/3/2/
+Remaining String: 734775766 => /7/3/2/
+Remaining String: 34775766 => /7/3/2/
+Remaining String: 4775766 => Page Fault: 4 not found! => /3/2/4/
+Remaining String: 775766 => Page Fault: 7 not found! => /2/4/7/
+Remaining String: 75766 => /2/4/7/
+Remaining String: 5766 => Page Fault: 5 not found! => /4/7/5/
+Remaining String: 766 => /4/7/5/
+Remaining String: 66 => Page Fault: 6 not found! => /7/5/6/
+Remaining String: 6 => /7/5/6/
+****************************************************************************
+Page Faults = 444
+****************************************************************************
+
+****************************************************************************
+Reference String: 124065365405326630166506547473
+Page Frame size: 3
+****************************************************************************
+Remaining String: 124065365405326630166506547473 => Page Fault: 1 not found! => /1/
+Remaining String: 24065365405326630166506547473 => Page Fault: 2 not found! => /1/2/
+Remaining String: 4065365405326630166506547473 => Page Fault: 4 not found! => /1/2/4/
+Remaining String: 065365405326630166506547473 => Page Fault: 0 not found! => /2/4/0/
+Remaining String: 65365405326630166506547473 => Page Fault: 6 not found! => /4/0/6/
+Remaining String: 5365405326630166506547473 => Page Fault: 5 not found! => /0/6/5/
+Remaining String: 365405326630166506547473 => Page Fault: 3 not found! => /6/5/3/
+Remaining String: 65405326630166506547473 => /6/5/3/
+Remaining String: 5405326630166506547473 => /6/5/3/
+Remaining String: 405326630166506547473 => Page Fault: 4 not found! => /5/3/4/
+Remaining String: 05326630166506547473 => Page Fault: 0 not found! => /3/4/0/
+Remaining String: 5326630166506547473 => Page Fault: 5 not found! => /4/0/5/
+Remaining String: 326630166506547473 => Page Fault: 3 not found! => /0/5/3/
+Remaining String: 26630166506547473 => Page Fault: 2 not found! => /5/3/2/
+Remaining String: 6630166506547473 => Page Fault: 6 not found! => /3/2/6/
+Remaining String: 630166506547473 => /3/2/6/
+Remaining String: 30166506547473 => /3/2/6/
+Remaining String: 0166506547473 => Page Fault: 0 not found! => /2/6/0/
+Remaining String: 166506547473 => Page Fault: 1 not found! => /6/0/1/
+Remaining String: 66506547473 => /6/0/1/
+Remaining String: 6506547473 => /6/0/1/
+Remaining String: 506547473 => Page Fault: 5 not found! => /0/1/5/
+Remaining String: 06547473 => /0/1/5/
+Remaining String: 6547473 => Page Fault: 6 not found! => /1/5/6/
+Remaining String: 547473 => /1/5/6/
+Remaining String: 47473 => Page Fault: 4 not found! => /5/6/4/
+Remaining String: 7473 => Page Fault: 7 not found! => /6/4/7/
+Remaining String: 473 => /6/4/7/
+Remaining String: 73 => /6/4/7/
+Remaining String: 3 => Page Fault: 3 not found! => /4/7/3/
+****************************************************************************
+Page Faults = 464
+****************************************************************************
+
+****************************************************************************
+Reference String: 123016434520214775514407120720
+Page Frame size: 3
+****************************************************************************
+Remaining String: 123016434520214775514407120720 => Page Fault: 1 not found! => /1/
+Remaining String: 23016434520214775514407120720 => Page Fault: 2 not found! => /1/2/
+Remaining String: 3016434520214775514407120720 => Page Fault: 3 not found! => /1/2/3/
+Remaining String: 016434520214775514407120720 => Page Fault: 0 not found! => /2/3/0/
+Remaining String: 16434520214775514407120720 => Page Fault: 1 not found! => /3/0/1/
+Remaining String: 6434520214775514407120720 => Page Fault: 6 not found! => /0/1/6/
+Remaining String: 434520214775514407120720 => Page Fault: 4 not found! => /1/6/4/
+Remaining String: 34520214775514407120720 => Page Fault: 3 not found! => /6/4/3/
+Remaining String: 4520214775514407120720 => /6/4/3/
+Remaining String: 520214775514407120720 => Page Fault: 5 not found! => /4/3/5/
+Remaining String: 20214775514407120720 => Page Fault: 2 not found! => /3/5/2/
+Remaining String: 0214775514407120720 => Page Fault: 0 not found! => /5/2/0/
+Remaining String: 214775514407120720 => /5/2/0/
+Remaining String: 14775514407120720 => Page Fault: 1 not found! => /2/0/1/
+Remaining String: 4775514407120720 => Page Fault: 4 not found! => /0/1/4/
+Remaining String: 775514407120720 => Page Fault: 7 not found! => /1/4/7/
+Remaining String: 75514407120720 => /1/4/7/
+Remaining String: 5514407120720 => Page Fault: 5 not found! => /4/7/5/
+Remaining String: 514407120720 => /4/7/5/
+Remaining String: 14407120720 => Page Fault: 1 not found! => /7/5/1/
+Remaining String: 4407120720 => Page Fault: 4 not found! => /5/1/4/
+Remaining String: 407120720 => /5/1/4/
+Remaining String: 07120720 => Page Fault: 0 not found! => /1/4/0/
+Remaining String: 7120720 => Page Fault: 7 not found! => /4/0/7/
+Remaining String: 120720 => Page Fault: 1 not found! => /0/7/1/
+Remaining String: 20720 => Page Fault: 2 not found! => /7/1/2/
+Remaining String: 0720 => Page Fault: 0 not found! => /1/2/0/
+Remaining String: 720 => Page Fault: 7 not found! => /2/0/7/
+Remaining String: 20 => /2/0/7/
+Remaining String: 0 => /2/0/7/
+****************************************************************************
+Page Faults = 487
+****************************************************************************
+
+****************************************************************************
+Reference String: 437415311414016471221700637172
+Page Frame size: 3
+****************************************************************************
+Remaining String: 437415311414016471221700637172 => Page Fault: 4 not found! => /4/
+Remaining String: 37415311414016471221700637172 => Page Fault: 3 not found! => /4/3/
+Remaining String: 7415311414016471221700637172 => Page Fault: 7 not found! => /4/3/7/
+Remaining String: 415311414016471221700637172 => /4/3/7/
+Remaining String: 15311414016471221700637172 => Page Fault: 1 not found! => /3/7/1/
+Remaining String: 5311414016471221700637172 => Page Fault: 5 not found! => /7/1/5/
+Remaining String: 311414016471221700637172 => Page Fault: 3 not found! => /1/5/3/
+Remaining String: 11414016471221700637172 => /1/5/3/
+Remaining String: 1414016471221700637172 => /1/5/3/
+Remaining String: 414016471221700637172 => Page Fault: 4 not found! => /5/3/4/
+Remaining String: 14016471221700637172 => Page Fault: 1 not found! => /3/4/1/
+Remaining String: 4016471221700637172 => /3/4/1/
+Remaining String: 016471221700637172 => Page Fault: 0 not found! => /4/1/0/
+Remaining String: 16471221700637172 => /4/1/0/
+Remaining String: 6471221700637172 => Page Fault: 6 not found! => /1/0/6/
+Remaining String: 471221700637172 => Page Fault: 4 not found! => /0/6/4/
+Remaining String: 71221700637172 => Page Fault: 7 not found! => /6/4/7/
+Remaining String: 1221700637172 => Page Fault: 1 not found! => /4/7/1/
+Remaining String: 221700637172 => Page Fault: 2 not found! => /7/1/2/
+Remaining String: 21700637172 => /7/1/2/
+Remaining String: 1700637172 => /7/1/2/
+Remaining String: 700637172 => /7/1/2/
+Remaining String: 00637172 => Page Fault: 0 not found! => /1/2/0/
+Remaining String: 0637172 => /1/2/0/
+Remaining String: 637172 => Page Fault: 6 not found! => /2/0/6/
+Remaining String: 37172 => Page Fault: 3 not found! => /0/6/3/
+Remaining String: 7172 => Page Fault: 7 not found! => /6/3/7/
+Remaining String: 172 => Page Fault: 1 not found! => /3/7/1/
+Remaining String: 72 => /3/7/1/
+Remaining String: 2 => Page Fault: 2 not found! => /7/1/2/
+****************************************************************************
+Page Faults = 507
+****************************************************************************
+
+****************************************************************************
+Reference String: 142020375113426050730174614540
+Page Frame size: 3
+****************************************************************************
+Remaining String: 142020375113426050730174614540 => Page Fault: 1 not found! => /1/
+Remaining String: 42020375113426050730174614540 => Page Fault: 4 not found! => /1/4/
+Remaining String: 2020375113426050730174614540 => Page Fault: 2 not found! => /1/4/2/
+Remaining String: 020375113426050730174614540 => Page Fault: 0 not found! => /4/2/0/
+Remaining String: 20375113426050730174614540 => /4/2/0/
+Remaining String: 0375113426050730174614540 => /4/2/0/
+Remaining String: 375113426050730174614540 => Page Fault: 3 not found! => /2/0/3/
+Remaining String: 75113426050730174614540 => Page Fault: 7 not found! => /0/3/7/
+Remaining String: 5113426050730174614540 => Page Fault: 5 not found! => /3/7/5/
+Remaining String: 113426050730174614540 => Page Fault: 1 not found! => /7/5/1/
+Remaining String: 13426050730174614540 => /7/5/1/
+Remaining String: 3426050730174614540 => Page Fault: 3 not found! => /5/1/3/
+Remaining String: 426050730174614540 => Page Fault: 4 not found! => /1/3/4/
+Remaining String: 26050730174614540 => Page Fault: 2 not found! => /3/4/2/
+Remaining String: 6050730174614540 => Page Fault: 6 not found! => /4/2/6/
+Remaining String: 050730174614540 => Page Fault: 0 not found! => /2/6/0/
+Remaining String: 50730174614540 => Page Fault: 5 not found! => /6/0/5/
+Remaining String: 0730174614540 => /6/0/5/
+Remaining String: 730174614540 => Page Fault: 7 not found! => /0/5/7/
+Remaining String: 30174614540 => Page Fault: 3 not found! => /5/7/3/
+Remaining String: 0174614540 => Page Fault: 0 not found! => /7/3/0/
+Remaining String: 174614540 => Page Fault: 1 not found! => /3/0/1/
+Remaining String: 74614540 => Page Fault: 7 not found! => /0/1/7/
+Remaining String: 4614540 => Page Fault: 4 not found! => /1/7/4/
+Remaining String: 614540 => Page Fault: 6 not found! => /7/4/6/
+Remaining String: 14540 => Page Fault: 1 not found! => /4/6/1/
+Remaining String: 4540 => /4/6/1/
+Remaining String: 540 => Page Fault: 5 not found! => /6/1/5/
+Remaining String: 40 => Page Fault: 4 not found! => /1/5/4/
+Remaining String: 0 => Page Fault: 0 not found! => /5/4/0/
+****************************************************************************
+Page Faults = 532
+****************************************************************************
+
+****************************************************************************
+Reference String: 514002763767011026707204536427
+Page Frame size: 3
+****************************************************************************
+Remaining String: 514002763767011026707204536427 => Page Fault: 5 not found! => /5/
+Remaining String: 14002763767011026707204536427 => Page Fault: 1 not found! => /5/1/
+Remaining String: 4002763767011026707204536427 => Page Fault: 4 not found! => /5/1/4/
+Remaining String: 002763767011026707204536427 => Page Fault: 0 not found! => /1/4/0/
+Remaining String: 02763767011026707204536427 => /1/4/0/
+Remaining String: 2763767011026707204536427 => Page Fault: 2 not found! => /4/0/2/
+Remaining String: 763767011026707204536427 => Page Fault: 7 not found! => /0/2/7/
+Remaining String: 63767011026707204536427 => Page Fault: 6 not found! => /2/7/6/
+Remaining String: 3767011026707204536427 => Page Fault: 3 not found! => /7/6/3/
+Remaining String: 767011026707204536427 => /7/6/3/
+Remaining String: 67011026707204536427 => /7/6/3/
+Remaining String: 7011026707204536427 => /7/6/3/
+Remaining String: 011026707204536427 => Page Fault: 0 not found! => /6/3/0/
+Remaining String: 11026707204536427 => Page Fault: 1 not found! => /3/0/1/
+Remaining String: 1026707204536427 => /3/0/1/
+Remaining String: 026707204536427 => /3/0/1/
+Remaining String: 26707204536427 => Page Fault: 2 not found! => /0/1/2/
+Remaining String: 6707204536427 => Page Fault: 6 not found! => /1/2/6/
+Remaining String: 707204536427 => Page Fault: 7 not found! => /2/6/7/
+Remaining String: 07204536427 => Page Fault: 0 not found! => /6/7/0/
+Remaining String: 7204536427 => /6/7/0/
+Remaining String: 204536427 => Page Fault: 2 not found! => /7/0/2/
+Remaining String: 04536427 => /7/0/2/
+Remaining String: 4536427 => Page Fault: 4 not found! => /0/2/4/
+Remaining String: 536427 => Page Fault: 5 not found! => /2/4/5/
+Remaining String: 36427 => Page Fault: 3 not found! => /4/5/3/
+Remaining String: 6427 => Page Fault: 6 not found! => /5/3/6/
+Remaining String: 427 => Page Fault: 4 not found! => /3/6/4/
+Remaining String: 27 => Page Fault: 2 not found! => /6/4/2/
+Remaining String: 7 => Page Fault: 7 not found! => /4/2/7/
+****************************************************************************
+Page Faults = 554
+****************************************************************************
+
+****************************************************************************
+Reference String: 434336702372314101545036431104
+Page Frame size: 3
+****************************************************************************
+Remaining String: 434336702372314101545036431104 => Page Fault: 4 not found! => /4/
+Remaining String: 34336702372314101545036431104 => Page Fault: 3 not found! => /4/3/
+Remaining String: 4336702372314101545036431104 => /4/3/
+Remaining String: 336702372314101545036431104 => /4/3/
+Remaining String: 36702372314101545036431104 => /4/3/
+Remaining String: 6702372314101545036431104 => Page Fault: 6 not found! => /4/3/6/
+Remaining String: 702372314101545036431104 => Page Fault: 7 not found! => /3/6/7/
+Remaining String: 02372314101545036431104 => Page Fault: 0 not found! => /6/7/0/
+Remaining String: 2372314101545036431104 => Page Fault: 2 not found! => /7/0/2/
+Remaining String: 372314101545036431104 => Page Fault: 3 not found! => /0/2/3/
+Remaining String: 72314101545036431104 => Page Fault: 7 not found! => /2/3/7/
+Remaining String: 2314101545036431104 => /2/3/7/
+Remaining String: 314101545036431104 => /2/3/7/
+Remaining String: 14101545036431104 => Page Fault: 1 not found! => /3/7/1/
+Remaining String: 4101545036431104 => Page Fault: 4 not found! => /7/1/4/
+Remaining String: 101545036431104 => /7/1/4/
+Remaining String: 01545036431104 => Page Fault: 0 not found! => /1/4/0/
+Remaining String: 1545036431104 => /1/4/0/
+Remaining String: 545036431104 => Page Fault: 5 not found! => /4/0/5/
+Remaining String: 45036431104 => /4/0/5/
+Remaining String: 5036431104 => /4/0/5/
+Remaining String: 036431104 => /4/0/5/
+Remaining String: 36431104 => Page Fault: 3 not found! => /0/5/3/
+Remaining String: 6431104 => Page Fault: 6 not found! => /5/3/6/
+Remaining String: 431104 => Page Fault: 4 not found! => /3/6/4/
+Remaining String: 31104 => /3/6/4/
+Remaining String: 1104 => Page Fault: 1 not found! => /6/4/1/
+Remaining String: 104 => /6/4/1/
+Remaining String: 04 => Page Fault: 0 not found! => /4/1/0/
+Remaining String: 4 => /4/1/0/
+****************************************************************************
+Page Faults = 571
+****************************************************************************
+
+****************************************************************************
+Reference String: 310556713743314044305235000660
+Page Frame size: 3
+****************************************************************************
+Remaining String: 310556713743314044305235000660 => Page Fault: 3 not found! => /3/
+Remaining String: 10556713743314044305235000660 => Page Fault: 1 not found! => /3/1/
+Remaining String: 0556713743314044305235000660 => Page Fault: 0 not found! => /3/1/0/
+Remaining String: 556713743314044305235000660 => Page Fault: 5 not found! => /1/0/5/
+Remaining String: 56713743314044305235000660 => /1/0/5/
+Remaining String: 6713743314044305235000660 => Page Fault: 6 not found! => /0/5/6/
+Remaining String: 713743314044305235000660 => Page Fault: 7 not found! => /5/6/7/
+Remaining String: 13743314044305235000660 => Page Fault: 1 not found! => /6/7/1/
+Remaining String: 3743314044305235000660 => Page Fault: 3 not found! => /7/1/3/
+Remaining String: 743314044305235000660 => /7/1/3/
+Remaining String: 43314044305235000660 => Page Fault: 4 not found! => /1/3/4/
+Remaining String: 3314044305235000660 => /1/3/4/
+Remaining String: 314044305235000660 => /1/3/4/
+Remaining String: 14044305235000660 => /1/3/4/
+Remaining String: 4044305235000660 => /1/3/4/
+Remaining String: 044305235000660 => Page Fault: 0 not found! => /3/4/0/
+Remaining String: 44305235000660 => /3/4/0/
+Remaining String: 4305235000660 => /3/4/0/
+Remaining String: 305235000660 => /3/4/0/
+Remaining String: 05235000660 => /3/4/0/
+Remaining String: 5235000660 => Page Fault: 5 not found! => /4/0/5/
+Remaining String: 235000660 => Page Fault: 2 not found! => /0/5/2/
+Remaining String: 35000660 => Page Fault: 3 not found! => /5/2/3/
+Remaining String: 5000660 => /5/2/3/
+Remaining String: 000660 => Page Fault: 0 not found! => /2/3/0/
+Remaining String: 00660 => /2/3/0/
+Remaining String: 0660 => /2/3/0/
+Remaining String: 660 => Page Fault: 6 not found! => /3/0/6/
+Remaining String: 60 => /3/0/6/
+Remaining String: 0 => /3/0/6/
+****************************************************************************
+Page Faults = 586
+****************************************************************************
+
+****************************************************************************
+Reference String: 272401356302456166522151436543
+Page Frame size: 3
+****************************************************************************
+Remaining String: 272401356302456166522151436543 => Page Fault: 2 not found! => /2/
+Remaining String: 72401356302456166522151436543 => Page Fault: 7 not found! => /2/7/
+Remaining String: 2401356302456166522151436543 => /2/7/
+Remaining String: 401356302456166522151436543 => Page Fault: 4 not found! => /2/7/4/
+Remaining String: 01356302456166522151436543 => Page Fault: 0 not found! => /7/4/0/
+Remaining String: 1356302456166522151436543 => Page Fault: 1 not found! => /4/0/1/
+Remaining String: 356302456166522151436543 => Page Fault: 3 not found! => /0/1/3/
+Remaining String: 56302456166522151436543 => Page Fault: 5 not found! => /1/3/5/
+Remaining String: 6302456166522151436543 => Page Fault: 6 not found! => /3/5/6/
+Remaining String: 302456166522151436543 => /3/5/6/
+Remaining String: 02456166522151436543 => Page Fault: 0 not found! => /5/6/0/
+Remaining String: 2456166522151436543 => Page Fault: 2 not found! => /6/0/2/
+Remaining String: 456166522151436543 => Page Fault: 4 not found! => /0/2/4/
+Remaining String: 56166522151436543 => Page Fault: 5 not found! => /2/4/5/
+Remaining String: 6166522151436543 => Page Fault: 6 not found! => /4/5/6/
+Remaining String: 166522151436543 => Page Fault: 1 not found! => /5/6/1/
+Remaining String: 66522151436543 => /5/6/1/
+Remaining String: 6522151436543 => /5/6/1/
+Remaining String: 522151436543 => /5/6/1/
+Remaining String: 22151436543 => Page Fault: 2 not found! => /6/1/2/
+Remaining String: 2151436543 => /6/1/2/
+Remaining String: 151436543 => /6/1/2/
+Remaining String: 51436543 => Page Fault: 5 not found! => /1/2/5/
+Remaining String: 1436543 => /1/2/5/
+Remaining String: 436543 => Page Fault: 4 not found! => /2/5/4/
+Remaining String: 36543 => Page Fault: 3 not found! => /5/4/3/
+Remaining String: 6543 => Page Fault: 6 not found! => /4/3/6/
+Remaining String: 543 => Page Fault: 5 not found! => /3/6/5/
+Remaining String: 43 => Page Fault: 4 not found! => /6/5/4/
+Remaining String: 3 => Page Fault: 3 not found! => /5/4/3/
+****************************************************************************
+Page Faults = 608
+****************************************************************************
+
+****************************************************************************
+Reference String: 616104467543740633651525461556
+Page Frame size: 3
+****************************************************************************
+Remaining String: 616104467543740633651525461556 => Page Fault: 6 not found! => /6/
+Remaining String: 16104467543740633651525461556 => Page Fault: 1 not found! => /6/1/
+Remaining String: 6104467543740633651525461556 => /6/1/
+Remaining String: 104467543740633651525461556 => /6/1/
+Remaining String: 04467543740633651525461556 => Page Fault: 0 not found! => /6/1/0/
+Remaining String: 4467543740633651525461556 => Page Fault: 4 not found! => /1/0/4/
+Remaining String: 467543740633651525461556 => /1/0/4/
+Remaining String: 67543740633651525461556 => Page Fault: 6 not found! => /0/4/6/
+Remaining String: 7543740633651525461556 => Page Fault: 7 not found! => /4/6/7/
+Remaining String: 543740633651525461556 => Page Fault: 5 not found! => /6/7/5/
+Remaining String: 43740633651525461556 => Page Fault: 4 not found! => /7/5/4/
+Remaining String: 3740633651525461556 => Page Fault: 3 not found! => /5/4/3/
+Remaining String: 740633651525461556 => Page Fault: 7 not found! => /4/3/7/
+Remaining String: 40633651525461556 => /4/3/7/
+Remaining String: 0633651525461556 => Page Fault: 0 not found! => /3/7/0/
+Remaining String: 633651525461556 => Page Fault: 6 not found! => /7/0/6/
+Remaining String: 33651525461556 => Page Fault: 3 not found! => /0/6/3/
+Remaining String: 3651525461556 => /0/6/3/
+Remaining String: 651525461556 => /0/6/3/
+Remaining String: 51525461556 => Page Fault: 5 not found! => /6/3/5/
+Remaining String: 1525461556 => Page Fault: 1 not found! => /3/5/1/
+Remaining String: 525461556 => /3/5/1/
+Remaining String: 25461556 => Page Fault: 2 not found! => /5/1/2/
+Remaining String: 5461556 => /5/1/2/
+Remaining String: 461556 => Page Fault: 4 not found! => /1/2/4/
+Remaining String: 61556 => Page Fault: 6 not found! => /2/4/6/
+Remaining String: 1556 => Page Fault: 1 not found! => /4/6/1/
+Remaining String: 556 => Page Fault: 5 not found! => /6/1/5/
+Remaining String: 56 => /6/1/5/
+Remaining String: 6 => /6/1/5/
+****************************************************************************
+Page Faults = 628
+****************************************************************************
+
+****************************************************************************
+Reference String: 252043360372136535451033304666
+Page Frame size: 3
+****************************************************************************
+Remaining String: 252043360372136535451033304666 => Page Fault: 2 not found! => /2/
+Remaining String: 52043360372136535451033304666 => Page Fault: 5 not found! => /2/5/
+Remaining String: 2043360372136535451033304666 => /2/5/
+Remaining String: 043360372136535451033304666 => Page Fault: 0 not found! => /2/5/0/
+Remaining String: 43360372136535451033304666 => Page Fault: 4 not found! => /5/0/4/
+Remaining String: 3360372136535451033304666 => Page Fault: 3 not found! => /0/4/3/
+Remaining String: 360372136535451033304666 => /0/4/3/
+Remaining String: 60372136535451033304666 => Page Fault: 6 not found! => /4/3/6/
+Remaining String: 0372136535451033304666 => Page Fault: 0 not found! => /3/6/0/
+Remaining String: 372136535451033304666 => /3/6/0/
+Remaining String: 72136535451033304666 => Page Fault: 7 not found! => /6/0/7/
+Remaining String: 2136535451033304666 => Page Fault: 2 not found! => /0/7/2/
+Remaining String: 136535451033304666 => Page Fault: 1 not found! => /7/2/1/
+Remaining String: 36535451033304666 => Page Fault: 3 not found! => /2/1/3/
+Remaining String: 6535451033304666 => Page Fault: 6 not found! => /1/3/6/
+Remaining String: 535451033304666 => Page Fault: 5 not found! => /3/6/5/
+Remaining String: 35451033304666 => /3/6/5/
+Remaining String: 5451033304666 => /3/6/5/
+Remaining String: 451033304666 => Page Fault: 4 not found! => /6/5/4/
+Remaining String: 51033304666 => /6/5/4/
+Remaining String: 1033304666 => Page Fault: 1 not found! => /5/4/1/
+Remaining String: 033304666 => Page Fault: 0 not found! => /4/1/0/
+Remaining String: 33304666 => Page Fault: 3 not found! => /1/0/3/
+Remaining String: 3304666 => /1/0/3/
+Remaining String: 304666 => /1/0/3/
+Remaining String: 04666 => /1/0/3/
+Remaining String: 4666 => Page Fault: 4 not found! => /0/3/4/
+Remaining String: 666 => Page Fault: 6 not found! => /3/4/6/
+Remaining String: 66 => /3/4/6/
+Remaining String: 6 => /3/4/6/
+****************************************************************************
+Page Faults = 647
+****************************************************************************
+
+****************************************************************************
+Reference String: 532737065226715622370341100417
+Page Frame size: 3
+****************************************************************************
+Remaining String: 532737065226715622370341100417 => Page Fault: 5 not found! => /5/
+Remaining String: 32737065226715622370341100417 => Page Fault: 3 not found! => /5/3/
+Remaining String: 2737065226715622370341100417 => Page Fault: 2 not found! => /5/3/2/
+Remaining String: 737065226715622370341100417 => Page Fault: 7 not found! => /3/2/7/
+Remaining String: 37065226715622370341100417 => /3/2/7/
+Remaining String: 7065226715622370341100417 => /3/2/7/
+Remaining String: 065226715622370341100417 => Page Fault: 0 not found! => /2/7/0/
+Remaining String: 65226715622370341100417 => Page Fault: 6 not found! => /7/0/6/
+Remaining String: 5226715622370341100417 => Page Fault: 5 not found! => /0/6/5/
+Remaining String: 226715622370341100417 => Page Fault: 2 not found! => /6/5/2/
+Remaining String: 26715622370341100417 => /6/5/2/
+Remaining String: 6715622370341100417 => /6/5/2/
+Remaining String: 715622370341100417 => Page Fault: 7 not found! => /5/2/7/
+Remaining String: 15622370341100417 => Page Fault: 1 not found! => /2/7/1/
+Remaining String: 5622370341100417 => Page Fault: 5 not found! => /7/1/5/
+Remaining String: 622370341100417 => Page Fault: 6 not found! => /1/5/6/
+Remaining String: 22370341100417 => Page Fault: 2 not found! => /5/6/2/
+Remaining String: 2370341100417 => /5/6/2/
+Remaining String: 370341100417 => Page Fault: 3 not found! => /6/2/3/
+Remaining String: 70341100417 => Page Fault: 7 not found! => /2/3/7/
+Remaining String: 0341100417 => Page Fault: 0 not found! => /3/7/0/
+Remaining String: 341100417 => /3/7/0/
+Remaining String: 41100417 => Page Fault: 4 not found! => /7/0/4/
+Remaining String: 1100417 => Page Fault: 1 not found! => /0/4/1/
+Remaining String: 100417 => /0/4/1/
+Remaining String: 00417 => /0/4/1/
+Remaining String: 0417 => /0/4/1/
+Remaining String: 417 => /0/4/1/
+Remaining String: 17 => /0/4/1/
+Remaining String: 7 => Page Fault: 7 not found! => /4/1/7/
+****************************************************************************
+Page Faults = 666
+****************************************************************************
+
+****************************************************************************
+Reference String: 253506123767135220557457536302
+Page Frame size: 3
+****************************************************************************
+Remaining String: 253506123767135220557457536302 => Page Fault: 2 not found! => /2/
+Remaining String: 53506123767135220557457536302 => Page Fault: 5 not found! => /2/5/
+Remaining String: 3506123767135220557457536302 => Page Fault: 3 not found! => /2/5/3/
+Remaining String: 506123767135220557457536302 => /2/5/3/
+Remaining String: 06123767135220557457536302 => Page Fault: 0 not found! => /5/3/0/
+Remaining String: 6123767135220557457536302 => Page Fault: 6 not found! => /3/0/6/
+Remaining String: 123767135220557457536302 => Page Fault: 1 not found! => /0/6/1/
+Remaining String: 23767135220557457536302 => Page Fault: 2 not found! => /6/1/2/
+Remaining String: 3767135220557457536302 => Page Fault: 3 not found! => /1/2/3/
+Remaining String: 767135220557457536302 => Page Fault: 7 not found! => /2/3/7/
+Remaining String: 67135220557457536302 => Page Fault: 6 not found! => /3/7/6/
+Remaining String: 7135220557457536302 => /3/7/6/
+Remaining String: 135220557457536302 => Page Fault: 1 not found! => /7/6/1/
+Remaining String: 35220557457536302 => Page Fault: 3 not found! => /6/1/3/
+Remaining String: 5220557457536302 => Page Fault: 5 not found! => /1/3/5/
+Remaining String: 220557457536302 => Page Fault: 2 not found! => /3/5/2/
+Remaining String: 20557457536302 => /3/5/2/
+Remaining String: 0557457536302 => Page Fault: 0 not found! => /5/2/0/
+Remaining String: 557457536302 => /5/2/0/
+Remaining String: 57457536302 => /5/2/0/
+Remaining String: 7457536302 => Page Fault: 7 not found! => /2/0/7/
+Remaining String: 457536302 => Page Fault: 4 not found! => /0/7/4/
+Remaining String: 57536302 => Page Fault: 5 not found! => /7/4/5/
+Remaining String: 7536302 => /7/4/5/
+Remaining String: 536302 => /7/4/5/
+Remaining String: 36302 => Page Fault: 3 not found! => /4/5/3/
+Remaining String: 6302 => Page Fault: 6 not found! => /5/3/6/
+Remaining String: 302 => /5/3/6/
+Remaining String: 02 => Page Fault: 0 not found! => /3/6/0/
+Remaining String: 2 => Page Fault: 2 not found! => /6/0/2/
+****************************************************************************
+Page Faults = 688
+****************************************************************************
+
+****************************************************************************
+Reference String: 477227162420132245054657313035
+Page Frame size: 3
+****************************************************************************
+Remaining String: 477227162420132245054657313035 => Page Fault: 4 not found! => /4/
+Remaining String: 77227162420132245054657313035 => Page Fault: 7 not found! => /4/7/
+Remaining String: 7227162420132245054657313035 => /4/7/
+Remaining String: 227162420132245054657313035 => Page Fault: 2 not found! => /4/7/2/
+Remaining String: 27162420132245054657313035 => /4/7/2/
+Remaining String: 7162420132245054657313035 => /4/7/2/
+Remaining String: 162420132245054657313035 => Page Fault: 1 not found! => /7/2/1/
+Remaining String: 62420132245054657313035 => Page Fault: 6 not found! => /2/1/6/
+Remaining String: 2420132245054657313035 => /2/1/6/
+Remaining String: 420132245054657313035 => Page Fault: 4 not found! => /1/6/4/
+Remaining String: 20132245054657313035 => Page Fault: 2 not found! => /6/4/2/
+Remaining String: 0132245054657313035 => Page Fault: 0 not found! => /4/2/0/
+Remaining String: 132245054657313035 => Page Fault: 1 not found! => /2/0/1/
+Remaining String: 32245054657313035 => Page Fault: 3 not found! => /0/1/3/
+Remaining String: 2245054657313035 => Page Fault: 2 not found! => /1/3/2/
+Remaining String: 245054657313035 => /1/3/2/
+Remaining String: 45054657313035 => Page Fault: 4 not found! => /3/2/4/
+Remaining String: 5054657313035 => Page Fault: 5 not found! => /2/4/5/
+Remaining String: 054657313035 => Page Fault: 0 not found! => /4/5/0/
+Remaining String: 54657313035 => /4/5/0/
+Remaining String: 4657313035 => /4/5/0/
+Remaining String: 657313035 => Page Fault: 6 not found! => /5/0/6/
+Remaining String: 57313035 => /5/0/6/
+Remaining String: 7313035 => Page Fault: 7 not found! => /0/6/7/
+Remaining String: 313035 => Page Fault: 3 not found! => /6/7/3/
+Remaining String: 13035 => Page Fault: 1 not found! => /7/3/1/
+Remaining String: 3035 => /7/3/1/
+Remaining String: 035 => Page Fault: 0 not found! => /3/1/0/
+Remaining String: 35 => /3/1/0/
+Remaining String: 5 => Page Fault: 5 not found! => /1/0/5/
+****************************************************************************
+Page Faults = 708
+****************************************************************************
+
+****************************************************************************
+Reference String: 401412604417301230656723712351
+Page Frame size: 3
+****************************************************************************
+Remaining String: 401412604417301230656723712351 => Page Fault: 4 not found! => /4/
+Remaining String: 01412604417301230656723712351 => Page Fault: 0 not found! => /4/0/
+Remaining String: 1412604417301230656723712351 => Page Fault: 1 not found! => /4/0/1/
+Remaining String: 412604417301230656723712351 => /4/0/1/
+Remaining String: 12604417301230656723712351 => /4/0/1/
+Remaining String: 2604417301230656723712351 => Page Fault: 2 not found! => /0/1/2/
+Remaining String: 604417301230656723712351 => Page Fault: 6 not found! => /1/2/6/
+Remaining String: 04417301230656723712351 => Page Fault: 0 not found! => /2/6/0/
+Remaining String: 4417301230656723712351 => Page Fault: 4 not found! => /6/0/4/
+Remaining String: 417301230656723712351 => /6/0/4/
+Remaining String: 17301230656723712351 => Page Fault: 1 not found! => /0/4/1/
+Remaining String: 7301230656723712351 => Page Fault: 7 not found! => /4/1/7/
+Remaining String: 301230656723712351 => Page Fault: 3 not found! => /1/7/3/
+Remaining String: 01230656723712351 => Page Fault: 0 not found! => /7/3/0/
+Remaining String: 1230656723712351 => Page Fault: 1 not found! => /3/0/1/
+Remaining String: 230656723712351 => Page Fault: 2 not found! => /0/1/2/
+Remaining String: 30656723712351 => Page Fault: 3 not found! => /1/2/3/
+Remaining String: 0656723712351 => Page Fault: 0 not found! => /2/3/0/
+Remaining String: 656723712351 => Page Fault: 6 not found! => /3/0/6/
+Remaining String: 56723712351 => Page Fault: 5 not found! => /0/6/5/
+Remaining String: 6723712351 => /0/6/5/
+Remaining String: 723712351 => Page Fault: 7 not found! => /6/5/7/
+Remaining String: 23712351 => Page Fault: 2 not found! => /5/7/2/
+Remaining String: 3712351 => Page Fault: 3 not found! => /7/2/3/
+Remaining String: 712351 => /7/2/3/
+Remaining String: 12351 => Page Fault: 1 not found! => /2/3/1/
+Remaining String: 2351 => /2/3/1/
+Remaining String: 351 => /2/3/1/
+Remaining String: 51 => Page Fault: 5 not found! => /3/1/5/
+Remaining String: 1 => /3/1/5/
+****************************************************************************
+Page Faults = 730
+****************************************************************************
+
+****************************************************************************
+Reference String: 351573107371712410430457101307
+Page Frame size: 3
+****************************************************************************
+Remaining String: 351573107371712410430457101307 => Page Fault: 3 not found! => /3/
+Remaining String: 51573107371712410430457101307 => Page Fault: 5 not found! => /3/5/
+Remaining String: 1573107371712410430457101307 => Page Fault: 1 not found! => /3/5/1/
+Remaining String: 573107371712410430457101307 => /3/5/1/
+Remaining String: 73107371712410430457101307 => Page Fault: 7 not found! => /5/1/7/
+Remaining String: 3107371712410430457101307 => Page Fault: 3 not found! => /1/7/3/
+Remaining String: 107371712410430457101307 => /1/7/3/
+Remaining String: 07371712410430457101307 => Page Fault: 0 not found! => /7/3/0/
+Remaining String: 7371712410430457101307 => /7/3/0/
+Remaining String: 371712410430457101307 => /7/3/0/
+Remaining String: 71712410430457101307 => /7/3/0/
+Remaining String: 1712410430457101307 => Page Fault: 1 not found! => /3/0/1/
+Remaining String: 712410430457101307 => Page Fault: 7 not found! => /0/1/7/
+Remaining String: 12410430457101307 => /0/1/7/
+Remaining String: 2410430457101307 => Page Fault: 2 not found! => /1/7/2/
+Remaining String: 410430457101307 => Page Fault: 4 not found! => /7/2/4/
+Remaining String: 10430457101307 => Page Fault: 1 not found! => /2/4/1/
+Remaining String: 0430457101307 => Page Fault: 0 not found! => /4/1/0/
+Remaining String: 430457101307 => /4/1/0/
+Remaining String: 30457101307 => Page Fault: 3 not found! => /1/0/3/
+Remaining String: 0457101307 => /1/0/3/
+Remaining String: 457101307 => Page Fault: 4 not found! => /0/3/4/
+Remaining String: 57101307 => Page Fault: 5 not found! => /3/4/5/
+Remaining String: 7101307 => Page Fault: 7 not found! => /4/5/7/
+Remaining String: 101307 => Page Fault: 1 not found! => /5/7/1/
+Remaining String: 01307 => Page Fault: 0 not found! => /7/1/0/
+Remaining String: 1307 => /7/1/0/
+Remaining String: 307 => Page Fault: 3 not found! => /1/0/3/
+Remaining String: 07 => /1/0/3/
+Remaining String: 7 => Page Fault: 7 not found! => /0/3/7/
+****************************************************************************
+Page Faults = 750
+****************************************************************************
+
+****************************************************************************
+Reference String: 562213665526554157052613237374
+Page Frame size: 3
+****************************************************************************
+Remaining String: 562213665526554157052613237374 => Page Fault: 5 not found! => /5/
+Remaining String: 62213665526554157052613237374 => Page Fault: 6 not found! => /5/6/
+Remaining String: 2213665526554157052613237374 => Page Fault: 2 not found! => /5/6/2/
+Remaining String: 213665526554157052613237374 => /5/6/2/
+Remaining String: 13665526554157052613237374 => Page Fault: 1 not found! => /6/2/1/
+Remaining String: 3665526554157052613237374 => Page Fault: 3 not found! => /2/1/3/
+Remaining String: 665526554157052613237374 => Page Fault: 6 not found! => /1/3/6/
+Remaining String: 65526554157052613237374 => /1/3/6/
+Remaining String: 5526554157052613237374 => Page Fault: 5 not found! => /3/6/5/
+Remaining String: 526554157052613237374 => /3/6/5/
+Remaining String: 26554157052613237374 => Page Fault: 2 not found! => /6/5/2/
+Remaining String: 6554157052613237374 => /6/5/2/
+Remaining String: 554157052613237374 => /6/5/2/
+Remaining String: 54157052613237374 => /6/5/2/
+Remaining String: 4157052613237374 => Page Fault: 4 not found! => /5/2/4/
+Remaining String: 157052613237374 => Page Fault: 1 not found! => /2/4/1/
+Remaining String: 57052613237374 => Page Fault: 5 not found! => /4/1/5/
+Remaining String: 7052613237374 => Page Fault: 7 not found! => /1/5/7/
+Remaining String: 052613237374 => Page Fault: 0 not found! => /5/7/0/
+Remaining String: 52613237374 => /5/7/0/
+Remaining String: 2613237374 => Page Fault: 2 not found! => /7/0/2/
+Remaining String: 613237374 => Page Fault: 6 not found! => /0/2/6/
+Remaining String: 13237374 => Page Fault: 1 not found! => /2/6/1/
+Remaining String: 3237374 => Page Fault: 3 not found! => /6/1/3/
+Remaining String: 237374 => Page Fault: 2 not found! => /1/3/2/
+Remaining String: 37374 => /1/3/2/
+Remaining String: 7374 => Page Fault: 7 not found! => /3/2/7/
+Remaining String: 374 => /3/2/7/
+Remaining String: 74 => /3/2/7/
+Remaining String: 4 => Page Fault: 4 not found! => /2/7/4/
+****************************************************************************
+Page Faults = 770
+****************************************************************************
+
+****************************************************************************
+Reference String: 040717316330526474047542634474
+Page Frame size: 3
+****************************************************************************
+Remaining String: 040717316330526474047542634474 => Page Fault: 0 not found! => /0/
+Remaining String: 40717316330526474047542634474 => Page Fault: 4 not found! => /0/4/
+Remaining String: 0717316330526474047542634474 => /0/4/
+Remaining String: 717316330526474047542634474 => Page Fault: 7 not found! => /0/4/7/
+Remaining String: 17316330526474047542634474 => Page Fault: 1 not found! => /4/7/1/
+Remaining String: 7316330526474047542634474 => /4/7/1/
+Remaining String: 316330526474047542634474 => Page Fault: 3 not found! => /7/1/3/
+Remaining String: 16330526474047542634474 => /7/1/3/
+Remaining String: 6330526474047542634474 => Page Fault: 6 not found! => /1/3/6/
+Remaining String: 330526474047542634474 => /1/3/6/
+Remaining String: 30526474047542634474 => /1/3/6/
+Remaining String: 0526474047542634474 => Page Fault: 0 not found! => /3/6/0/
+Remaining String: 526474047542634474 => Page Fault: 5 not found! => /6/0/5/
+Remaining String: 26474047542634474 => Page Fault: 2 not found! => /0/5/2/
+Remaining String: 6474047542634474 => Page Fault: 6 not found! => /5/2/6/
+Remaining String: 474047542634474 => Page Fault: 4 not found! => /2/6/4/
+Remaining String: 74047542634474 => Page Fault: 7 not found! => /6/4/7/
+Remaining String: 4047542634474 => /6/4/7/
+Remaining String: 047542634474 => Page Fault: 0 not found! => /4/7/0/
+Remaining String: 47542634474 => /4/7/0/
+Remaining String: 7542634474 => /4/7/0/
+Remaining String: 542634474 => Page Fault: 5 not found! => /7/0/5/
+Remaining String: 42634474 => Page Fault: 4 not found! => /0/5/4/
+Remaining String: 2634474 => Page Fault: 2 not found! => /5/4/2/
+Remaining String: 634474 => Page Fault: 6 not found! => /4/2/6/
+Remaining String: 34474 => Page Fault: 3 not found! => /2/6/3/
+Remaining String: 4474 => Page Fault: 4 not found! => /6/3/4/
+Remaining String: 474 => /6/3/4/
+Remaining String: 74 => Page Fault: 7 not found! => /3/4/7/
+Remaining String: 4 => /3/4/7/
+****************************************************************************
+Page Faults = 790
+****************************************************************************
+
+****************************************************************************
+Reference String: 072215002134507136544055006720
+Page Frame size: 3
+****************************************************************************
+Remaining String: 072215002134507136544055006720 => Page Fault: 0 not found! => /0/
+Remaining String: 72215002134507136544055006720 => Page Fault: 7 not found! => /0/7/
+Remaining String: 2215002134507136544055006720 => Page Fault: 2 not found! => /0/7/2/
+Remaining String: 215002134507136544055006720 => /0/7/2/
+Remaining String: 15002134507136544055006720 => Page Fault: 1 not found! => /7/2/1/
+Remaining String: 5002134507136544055006720 => Page Fault: 5 not found! => /2/1/5/
+Remaining String: 002134507136544055006720 => Page Fault: 0 not found! => /1/5/0/
+Remaining String: 02134507136544055006720 => /1/5/0/
+Remaining String: 2134507136544055006720 => Page Fault: 2 not found! => /5/0/2/
+Remaining String: 134507136544055006720 => Page Fault: 1 not found! => /0/2/1/
+Remaining String: 34507136544055006720 => Page Fault: 3 not found! => /2/1/3/
+Remaining String: 4507136544055006720 => Page Fault: 4 not found! => /1/3/4/
+Remaining String: 507136544055006720 => Page Fault: 5 not found! => /3/4/5/
+Remaining String: 07136544055006720 => Page Fault: 0 not found! => /4/5/0/
+Remaining String: 7136544055006720 => Page Fault: 7 not found! => /5/0/7/
+Remaining String: 136544055006720 => Page Fault: 1 not found! => /0/7/1/
+Remaining String: 36544055006720 => Page Fault: 3 not found! => /7/1/3/
+Remaining String: 6544055006720 => Page Fault: 6 not found! => /1/3/6/
+Remaining String: 544055006720 => Page Fault: 5 not found! => /3/6/5/
+Remaining String: 44055006720 => Page Fault: 4 not found! => /6/5/4/
+Remaining String: 4055006720 => /6/5/4/
+Remaining String: 055006720 => Page Fault: 0 not found! => /5/4/0/
+Remaining String: 55006720 => /5/4/0/
+Remaining String: 5006720 => /5/4/0/
+Remaining String: 006720 => /5/4/0/
+Remaining String: 06720 => /5/4/0/
+Remaining String: 6720 => Page Fault: 6 not found! => /4/0/6/
+Remaining String: 720 => Page Fault: 7 not found! => /0/6/7/
+Remaining String: 20 => Page Fault: 2 not found! => /6/7/2/
+Remaining String: 0 => Page Fault: 0 not found! => /7/2/0/
+****************************************************************************
+Page Faults = 813
+****************************************************************************
+
+****************************************************************************
+Reference String: 672764434610375762633415526760
+Page Frame size: 3
+****************************************************************************
+Remaining String: 672764434610375762633415526760 => Page Fault: 6 not found! => /6/
+Remaining String: 72764434610375762633415526760 => Page Fault: 7 not found! => /6/7/
+Remaining String: 2764434610375762633415526760 => Page Fault: 2 not found! => /6/7/2/
+Remaining String: 764434610375762633415526760 => /6/7/2/
+Remaining String: 64434610375762633415526760 => /6/7/2/
+Remaining String: 4434610375762633415526760 => Page Fault: 4 not found! => /7/2/4/
+Remaining String: 434610375762633415526760 => /7/2/4/
+Remaining String: 34610375762633415526760 => Page Fault: 3 not found! => /2/4/3/
+Remaining String: 4610375762633415526760 => /2/4/3/
+Remaining String: 610375762633415526760 => Page Fault: 6 not found! => /4/3/6/
+Remaining String: 10375762633415526760 => Page Fault: 1 not found! => /3/6/1/
+Remaining String: 0375762633415526760 => Page Fault: 0 not found! => /6/1/0/
+Remaining String: 375762633415526760 => Page Fault: 3 not found! => /1/0/3/
+Remaining String: 75762633415526760 => Page Fault: 7 not found! => /0/3/7/
+Remaining String: 5762633415526760 => Page Fault: 5 not found! => /3/7/5/
+Remaining String: 762633415526760 => /3/7/5/
+Remaining String: 62633415526760 => Page Fault: 6 not found! => /7/5/6/
+Remaining String: 2633415526760 => Page Fault: 2 not found! => /5/6/2/
+Remaining String: 633415526760 => /5/6/2/
+Remaining String: 33415526760 => Page Fault: 3 not found! => /6/2/3/
+Remaining String: 3415526760 => /6/2/3/
+Remaining String: 415526760 => Page Fault: 4 not found! => /2/3/4/
+Remaining String: 15526760 => Page Fault: 1 not found! => /3/4/1/
+Remaining String: 5526760 => Page Fault: 5 not found! => /4/1/5/
+Remaining String: 526760 => /4/1/5/
+Remaining String: 26760 => Page Fault: 2 not found! => /1/5/2/
+Remaining String: 6760 => Page Fault: 6 not found! => /5/2/6/
+Remaining String: 760 => Page Fault: 7 not found! => /2/6/7/
+Remaining String: 60 => /2/6/7/
+Remaining String: 0 => Page Fault: 0 not found! => /6/7/0/
+****************************************************************************
+Page Faults = 834
+****************************************************************************
+
+****************************************************************************
+Reference String: 711501625354263362505570767527
+Page Frame size: 3
+****************************************************************************
+Remaining String: 711501625354263362505570767527 => Page Fault: 7 not found! => /7/
+Remaining String: 11501625354263362505570767527 => Page Fault: 1 not found! => /7/1/
+Remaining String: 1501625354263362505570767527 => /7/1/
+Remaining String: 501625354263362505570767527 => Page Fault: 5 not found! => /7/1/5/
+Remaining String: 01625354263362505570767527 => Page Fault: 0 not found! => /1/5/0/
+Remaining String: 1625354263362505570767527 => /1/5/0/
+Remaining String: 625354263362505570767527 => Page Fault: 6 not found! => /5/0/6/
+Remaining String: 25354263362505570767527 => Page Fault: 2 not found! => /0/6/2/
+Remaining String: 5354263362505570767527 => Page Fault: 5 not found! => /6/2/5/
+Remaining String: 354263362505570767527 => Page Fault: 3 not found! => /2/5/3/
+Remaining String: 54263362505570767527 => /2/5/3/
+Remaining String: 4263362505570767527 => Page Fault: 4 not found! => /5/3/4/
+Remaining String: 263362505570767527 => Page Fault: 2 not found! => /3/4/2/
+Remaining String: 63362505570767527 => Page Fault: 6 not found! => /4/2/6/
+Remaining String: 3362505570767527 => Page Fault: 3 not found! => /2/6/3/
+Remaining String: 362505570767527 => /2/6/3/
+Remaining String: 62505570767527 => /2/6/3/
+Remaining String: 2505570767527 => /2/6/3/
+Remaining String: 505570767527 => Page Fault: 5 not found! => /6/3/5/
+Remaining String: 05570767527 => Page Fault: 0 not found! => /3/5/0/
+Remaining String: 5570767527 => /3/5/0/
+Remaining String: 570767527 => /3/5/0/
+Remaining String: 70767527 => Page Fault: 7 not found! => /5/0/7/
+Remaining String: 0767527 => /5/0/7/
+Remaining String: 767527 => /5/0/7/
+Remaining String: 67527 => Page Fault: 6 not found! => /0/7/6/
+Remaining String: 7527 => /0/7/6/
+Remaining String: 527 => Page Fault: 5 not found! => /7/6/5/
+Remaining String: 27 => Page Fault: 2 not found! => /6/5/2/
+Remaining String: 7 => Page Fault: 7 not found! => /5/2/7/
+****************************************************************************
+Page Faults = 853
+****************************************************************************
+
+****************************************************************************
+Reference String: 651701670762012003010124063164
+Page Frame size: 3
+****************************************************************************
+Remaining String: 651701670762012003010124063164 => Page Fault: 6 not found! => /6/
+Remaining String: 51701670762012003010124063164 => Page Fault: 5 not found! => /6/5/
+Remaining String: 1701670762012003010124063164 => Page Fault: 1 not found! => /6/5/1/
+Remaining String: 701670762012003010124063164 => Page Fault: 7 not found! => /5/1/7/
+Remaining String: 01670762012003010124063164 => Page Fault: 0 not found! => /1/7/0/
+Remaining String: 1670762012003010124063164 => /1/7/0/
+Remaining String: 670762012003010124063164 => Page Fault: 6 not found! => /7/0/6/
+Remaining String: 70762012003010124063164 => /7/0/6/
+Remaining String: 0762012003010124063164 => /7/0/6/
+Remaining String: 762012003010124063164 => /7/0/6/
+Remaining String: 62012003010124063164 => /7/0/6/
+Remaining String: 2012003010124063164 => Page Fault: 2 not found! => /0/6/2/
+Remaining String: 012003010124063164 => /0/6/2/
+Remaining String: 12003010124063164 => Page Fault: 1 not found! => /6/2/1/
+Remaining String: 2003010124063164 => /6/2/1/
+Remaining String: 003010124063164 => Page Fault: 0 not found! => /2/1/0/
+Remaining String: 03010124063164 => /2/1/0/
+Remaining String: 3010124063164 => Page Fault: 3 not found! => /1/0/3/
+Remaining String: 010124063164 => /1/0/3/
+Remaining String: 10124063164 => /1/0/3/
+Remaining String: 0124063164 => /1/0/3/
+Remaining String: 124063164 => /1/0/3/
+Remaining String: 24063164 => Page Fault: 2 not found! => /0/3/2/
+Remaining String: 4063164 => Page Fault: 4 not found! => /3/2/4/
+Remaining String: 063164 => Page Fault: 0 not found! => /2/4/0/
+Remaining String: 63164 => Page Fault: 6 not found! => /4/0/6/
+Remaining String: 3164 => Page Fault: 3 not found! => /0/6/3/
+Remaining String: 164 => Page Fault: 1 not found! => /6/3/1/
+Remaining String: 64 => /6/3/1/
+Remaining String: 4 => Page Fault: 4 not found! => /3/1/4/
+****************************************************************************
+Page Faults = 870
+****************************************************************************
+
+****************************************************************************
+Reference String: 252365624163306475600010201410
+Page Frame size: 3
+****************************************************************************
+Remaining String: 252365624163306475600010201410 => Page Fault: 2 not found! => /2/
+Remaining String: 52365624163306475600010201410 => Page Fault: 5 not found! => /2/5/
+Remaining String: 2365624163306475600010201410 => /2/5/
+Remaining String: 365624163306475600010201410 => Page Fault: 3 not found! => /2/5/3/
+Remaining String: 65624163306475600010201410 => Page Fault: 6 not found! => /5/3/6/
+Remaining String: 5624163306475600010201410 => /5/3/6/
+Remaining String: 624163306475600010201410 => /5/3/6/
+Remaining String: 24163306475600010201410 => Page Fault: 2 not found! => /3/6/2/
+Remaining String: 4163306475600010201410 => Page Fault: 4 not found! => /6/2/4/
+Remaining String: 163306475600010201410 => Page Fault: 1 not found! => /2/4/1/
+Remaining String: 63306475600010201410 => Page Fault: 6 not found! => /4/1/6/
+Remaining String: 3306475600010201410 => Page Fault: 3 not found! => /1/6/3/
+Remaining String: 306475600010201410 => /1/6/3/
+Remaining String: 06475600010201410 => Page Fault: 0 not found! => /6/3/0/
+Remaining String: 6475600010201410 => /6/3/0/
+Remaining String: 475600010201410 => Page Fault: 4 not found! => /3/0/4/
+Remaining String: 75600010201410 => Page Fault: 7 not found! => /0/4/7/
+Remaining String: 5600010201410 => Page Fault: 5 not found! => /4/7/5/
+Remaining String: 600010201410 => Page Fault: 6 not found! => /7/5/6/
+Remaining String: 00010201410 => Page Fault: 0 not found! => /5/6/0/
+Remaining String: 0010201410 => /5/6/0/
+Remaining String: 010201410 => /5/6/0/
+Remaining String: 10201410 => Page Fault: 1 not found! => /6/0/1/
+Remaining String: 0201410 => /6/0/1/
+Remaining String: 201410 => Page Fault: 2 not found! => /0/1/2/
+Remaining String: 01410 => /0/1/2/
+Remaining String: 1410 => /0/1/2/
+Remaining String: 410 => Page Fault: 4 not found! => /1/2/4/
+Remaining String: 10 => /1/2/4/
+Remaining String: 0 => Page Fault: 0 not found! => /2/4/0/
+****************************************************************************
+Page Faults = 889
+****************************************************************************
+
+****************************************************************************
+Reference String: 316321157710233306072407324027
+Page Frame size: 3
+****************************************************************************
+Remaining String: 316321157710233306072407324027 => Page Fault: 3 not found! => /3/
+Remaining String: 16321157710233306072407324027 => Page Fault: 1 not found! => /3/1/
+Remaining String: 6321157710233306072407324027 => Page Fault: 6 not found! => /3/1/6/
+Remaining String: 321157710233306072407324027 => /3/1/6/
+Remaining String: 21157710233306072407324027 => Page Fault: 2 not found! => /1/6/2/
+Remaining String: 1157710233306072407324027 => /1/6/2/
+Remaining String: 157710233306072407324027 => /1/6/2/
+Remaining String: 57710233306072407324027 => Page Fault: 5 not found! => /6/2/5/
+Remaining String: 7710233306072407324027 => Page Fault: 7 not found! => /2/5/7/
+Remaining String: 710233306072407324027 => /2/5/7/
+Remaining String: 10233306072407324027 => Page Fault: 1 not found! => /5/7/1/
+Remaining String: 0233306072407324027 => Page Fault: 0 not found! => /7/1/0/
+Remaining String: 233306072407324027 => Page Fault: 2 not found! => /1/0/2/
+Remaining String: 33306072407324027 => Page Fault: 3 not found! => /0/2/3/
+Remaining String: 3306072407324027 => /0/2/3/
+Remaining String: 306072407324027 => /0/2/3/
+Remaining String: 06072407324027 => /0/2/3/
+Remaining String: 6072407324027 => Page Fault: 6 not found! => /2/3/6/
+Remaining String: 072407324027 => Page Fault: 0 not found! => /3/6/0/
+Remaining String: 72407324027 => Page Fault: 7 not found! => /6/0/7/
+Remaining String: 2407324027 => Page Fault: 2 not found! => /0/7/2/
+Remaining String: 407324027 => Page Fault: 4 not found! => /7/2/4/
+Remaining String: 07324027 => Page Fault: 0 not found! => /2/4/0/
+Remaining String: 7324027 => Page Fault: 7 not found! => /4/0/7/
+Remaining String: 324027 => Page Fault: 3 not found! => /0/7/3/
+Remaining String: 24027 => Page Fault: 2 not found! => /7/3/2/
+Remaining String: 4027 => Page Fault: 4 not found! => /3/2/4/
+Remaining String: 027 => Page Fault: 0 not found! => /2/4/0/
+Remaining String: 27 => /2/4/0/
+Remaining String: 7 => Page Fault: 7 not found! => /4/0/7/
+****************************************************************************
+Page Faults = 911
+****************************************************************************
+
+****************************************************************************
+Reference String: 257000500570644726147305212461
+Page Frame size: 3
+****************************************************************************
+Remaining String: 257000500570644726147305212461 => Page Fault: 2 not found! => /2/
+Remaining String: 57000500570644726147305212461 => Page Fault: 5 not found! => /2/5/
+Remaining String: 7000500570644726147305212461 => Page Fault: 7 not found! => /2/5/7/
+Remaining String: 000500570644726147305212461 => Page Fault: 0 not found! => /5/7/0/
+Remaining String: 00500570644726147305212461 => /5/7/0/
+Remaining String: 0500570644726147305212461 => /5/7/0/
+Remaining String: 500570644726147305212461 => /5/7/0/
+Remaining String: 00570644726147305212461 => /5/7/0/
+Remaining String: 0570644726147305212461 => /5/7/0/
+Remaining String: 570644726147305212461 => /5/7/0/
+Remaining String: 70644726147305212461 => /5/7/0/
+Remaining String: 0644726147305212461 => /5/7/0/
+Remaining String: 644726147305212461 => Page Fault: 6 not found! => /7/0/6/
+Remaining String: 44726147305212461 => Page Fault: 4 not found! => /0/6/4/
+Remaining String: 4726147305212461 => /0/6/4/
+Remaining String: 726147305212461 => Page Fault: 7 not found! => /6/4/7/
+Remaining String: 26147305212461 => Page Fault: 2 not found! => /4/7/2/
+Remaining String: 6147305212461 => Page Fault: 6 not found! => /7/2/6/
+Remaining String: 147305212461 => Page Fault: 1 not found! => /2/6/1/
+Remaining String: 47305212461 => Page Fault: 4 not found! => /6/1/4/
+Remaining String: 7305212461 => Page Fault: 7 not found! => /1/4/7/
+Remaining String: 305212461 => Page Fault: 3 not found! => /4/7/3/
+Remaining String: 05212461 => Page Fault: 0 not found! => /7/3/0/
+Remaining String: 5212461 => Page Fault: 5 not found! => /3/0/5/
+Remaining String: 212461 => Page Fault: 2 not found! => /0/5/2/
+Remaining String: 12461 => Page Fault: 1 not found! => /5/2/1/
+Remaining String: 2461 => /5/2/1/
+Remaining String: 461 => Page Fault: 4 not found! => /2/1/4/
+Remaining String: 61 => Page Fault: 6 not found! => /1/4/6/
+Remaining String: 1 => /1/4/6/
+****************************************************************************
+Page Faults = 930
+****************************************************************************
+
+****************************************************************************
+Reference String: 770653372602632403733016204236
+Page Frame size: 3
+****************************************************************************
+Remaining String: 770653372602632403733016204236 => Page Fault: 7 not found! => /7/
+Remaining String: 70653372602632403733016204236 => /7/
+Remaining String: 0653372602632403733016204236 => Page Fault: 0 not found! => /7/0/
+Remaining String: 653372602632403733016204236 => Page Fault: 6 not found! => /7/0/6/
+Remaining String: 53372602632403733016204236 => Page Fault: 5 not found! => /0/6/5/
+Remaining String: 3372602632403733016204236 => Page Fault: 3 not found! => /6/5/3/
+Remaining String: 372602632403733016204236 => /6/5/3/
+Remaining String: 72602632403733016204236 => Page Fault: 7 not found! => /5/3/7/
+Remaining String: 2602632403733016204236 => Page Fault: 2 not found! => /3/7/2/
+Remaining String: 602632403733016204236 => Page Fault: 6 not found! => /7/2/6/
+Remaining String: 02632403733016204236 => Page Fault: 0 not found! => /2/6/0/
+Remaining String: 2632403733016204236 => /2/6/0/
+Remaining String: 632403733016204236 => /2/6/0/
+Remaining String: 32403733016204236 => Page Fault: 3 not found! => /6/0/3/
+Remaining String: 2403733016204236 => Page Fault: 2 not found! => /0/3/2/
+Remaining String: 403733016204236 => Page Fault: 4 not found! => /3/2/4/
+Remaining String: 03733016204236 => Page Fault: 0 not found! => /2/4/0/
+Remaining String: 3733016204236 => Page Fault: 3 not found! => /4/0/3/
+Remaining String: 733016204236 => Page Fault: 7 not found! => /0/3/7/
+Remaining String: 33016204236 => /0/3/7/
+Remaining String: 3016204236 => /0/3/7/
+Remaining String: 016204236 => /0/3/7/
+Remaining String: 16204236 => Page Fault: 1 not found! => /3/7/1/
+Remaining String: 6204236 => Page Fault: 6 not found! => /7/1/6/
+Remaining String: 204236 => Page Fault: 2 not found! => /1/6/2/
+Remaining String: 04236 => Page Fault: 0 not found! => /6/2/0/
+Remaining String: 4236 => Page Fault: 4 not found! => /2/0/4/
+Remaining String: 236 => /2/0/4/
+Remaining String: 36 => Page Fault: 3 not found! => /0/4/3/
+Remaining String: 6 => Page Fault: 6 not found! => /4/3/6/
+****************************************************************************
+Page Faults = 952
+****************************************************************************
+
+****************************************************************************
+Reference String: 677427716016063342525327767111
+Page Frame size: 3
+****************************************************************************
+Remaining String: 677427716016063342525327767111 => Page Fault: 6 not found! => /6/
+Remaining String: 77427716016063342525327767111 => Page Fault: 7 not found! => /6/7/
+Remaining String: 7427716016063342525327767111 => /6/7/
+Remaining String: 427716016063342525327767111 => Page Fault: 4 not found! => /6/7/4/
+Remaining String: 27716016063342525327767111 => Page Fault: 2 not found! => /7/4/2/
+Remaining String: 7716016063342525327767111 => /7/4/2/
+Remaining String: 716016063342525327767111 => /7/4/2/
+Remaining String: 16016063342525327767111 => Page Fault: 1 not found! => /4/2/1/
+Remaining String: 6016063342525327767111 => Page Fault: 6 not found! => /2/1/6/
+Remaining String: 016063342525327767111 => Page Fault: 0 not found! => /1/6/0/
+Remaining String: 16063342525327767111 => /1/6/0/
+Remaining String: 6063342525327767111 => /1/6/0/
+Remaining String: 063342525327767111 => /1/6/0/
+Remaining String: 63342525327767111 => /1/6/0/
+Remaining String: 3342525327767111 => Page Fault: 3 not found! => /6/0/3/
+Remaining String: 342525327767111 => /6/0/3/
+Remaining String: 42525327767111 => Page Fault: 4 not found! => /0/3/4/
+Remaining String: 2525327767111 => Page Fault: 2 not found! => /3/4/2/
+Remaining String: 525327767111 => Page Fault: 5 not found! => /4/2/5/
+Remaining String: 25327767111 => /4/2/5/
+Remaining String: 5327767111 => /4/2/5/
+Remaining String: 327767111 => Page Fault: 3 not found! => /2/5/3/
+Remaining String: 27767111 => /2/5/3/
+Remaining String: 7767111 => Page Fault: 7 not found! => /5/3/7/
+Remaining String: 767111 => /5/3/7/
+Remaining String: 67111 => Page Fault: 6 not found! => /3/7/6/
+Remaining String: 7111 => /3/7/6/
+Remaining String: 111 => Page Fault: 1 not found! => /7/6/1/
+Remaining String: 11 => /7/6/1/
+Remaining String: 1 => /7/6/1/
+****************************************************************************
+Page Faults = 967
+****************************************************************************
+
+****************************************************************************
+Reference String: 645566341062715672613773751037
+Page Frame size: 3
+****************************************************************************
+Remaining String: 645566341062715672613773751037 => Page Fault: 6 not found! => /6/
+Remaining String: 45566341062715672613773751037 => Page Fault: 4 not found! => /6/4/
+Remaining String: 5566341062715672613773751037 => Page Fault: 5 not found! => /6/4/5/
+Remaining String: 566341062715672613773751037 => /6/4/5/
+Remaining String: 66341062715672613773751037 => /6/4/5/
+Remaining String: 6341062715672613773751037 => /6/4/5/
+Remaining String: 341062715672613773751037 => Page Fault: 3 not found! => /4/5/3/
+Remaining String: 41062715672613773751037 => /4/5/3/
+Remaining String: 1062715672613773751037 => Page Fault: 1 not found! => /5/3/1/
+Remaining String: 062715672613773751037 => Page Fault: 0 not found! => /3/1/0/
+Remaining String: 62715672613773751037 => Page Fault: 6 not found! => /1/0/6/
+Remaining String: 2715672613773751037 => Page Fault: 2 not found! => /0/6/2/
+Remaining String: 715672613773751037 => Page Fault: 7 not found! => /6/2/7/
+Remaining String: 15672613773751037 => Page Fault: 1 not found! => /2/7/1/
+Remaining String: 5672613773751037 => Page Fault: 5 not found! => /7/1/5/
+Remaining String: 672613773751037 => Page Fault: 6 not found! => /1/5/6/
+Remaining String: 72613773751037 => Page Fault: 7 not found! => /5/6/7/
+Remaining String: 2613773751037 => Page Fault: 2 not found! => /6/7/2/
+Remaining String: 613773751037 => /6/7/2/
+Remaining String: 13773751037 => Page Fault: 1 not found! => /7/2/1/
+Remaining String: 3773751037 => Page Fault: 3 not found! => /2/1/3/
+Remaining String: 773751037 => Page Fault: 7 not found! => /1/3/7/
+Remaining String: 73751037 => /1/3/7/
+Remaining String: 3751037 => /1/3/7/
+Remaining String: 751037 => /1/3/7/
+Remaining String: 51037 => Page Fault: 5 not found! => /3/7/5/
+Remaining String: 1037 => Page Fault: 1 not found! => /7/5/1/
+Remaining String: 037 => Page Fault: 0 not found! => /5/1/0/
+Remaining String: 37 => Page Fault: 3 not found! => /1/0/3/
+Remaining String: 7 => Page Fault: 7 not found! => /0/3/7/
+****************************************************************************
+Page Faults = 989
+****************************************************************************
+
+
+****************************************************************************
+50 Strings Done.
+Number of page Faults = 989
+Average page faults = 19.78
+****************************************************************************
