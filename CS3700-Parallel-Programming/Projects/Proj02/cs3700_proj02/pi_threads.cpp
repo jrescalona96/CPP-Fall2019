@@ -13,7 +13,7 @@ using namespace std;
 
 // DECLARATIONS //
 // Number of Trials
-const double size = 1000000000.0;
+const double size = 100000000.0;
 // mutex lock
 mutex lock_mutex;
 
@@ -23,7 +23,7 @@ void runSimulation(double &totalHits, int id, unsigned long long start, unsigned
 // MAIN //
 int main(int argc, char **argv)
 {
-    if (strcmp("0", argv[1]))
+    if (argv[1] != 0)
     {
         // DECLARATIONS
         int threads = stoi(argv[1]);
@@ -41,11 +41,10 @@ int main(int argc, char **argv)
             threadID = i;
             printf("Thread %d,  Slice: [%lld:%lld]\n", threadID, startIndex, endIndex);
             td[threadID] = thread(runSimulation, ref(totalHits), threadID, startIndex, endIndex);
-            //TODO: Need to account for ONLY up to the given size.
 
             startIndex = endIndex + 1;
             // the next thread to be sent will be the last thread.
-            // current thread is one before the last one
+            // if current thread is one before the last one
             if (threadID == (threads - 2))
             {
                 endIndex = size - 1;
