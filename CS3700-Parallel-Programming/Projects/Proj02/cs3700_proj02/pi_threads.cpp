@@ -41,7 +41,6 @@ int main(int argc, char **argv)
             threadID = i;
             printf("Thread %d,  Slice: [%lld:%lld]\n", threadID, startIndex, endIndex);
             td[threadID] = thread(runSimulation, ref(totalHits), threadID, startIndex, endIndex);
-            //TODO: Need to account for ONLY up to the given size.
 
             startIndex = endIndex + 1;
             // the next thread to be sent will be the last thread.
