@@ -1,6 +1,6 @@
 # Project #1 : Job Scheduler
 
-### Simulating Job Scheduler of the Operating Systems by programming the following four scheduling algorithms that we covered in the class:
+### Simulating Job Scheduler of the Operating Systems
 
 - a. First-Come-First-Serve (FCFS)
 - b. Shortest-Job-First (SJF)
@@ -34,25 +34,6 @@ The program will read process burst times from a file (job.txt) – this file wi
 > 12
 >
 > [End of job.txt]
-
-### Note: you can assume that:
-
-> (1) There are no more than 30 jobs in the input file (job.txt).
->
-> (2) Processes arrive in the order they are read from the file for FCFS, RR-2 and RR-5.
->
-> (3) All jobs arrive at time 0 for SJF.
->
-> (4) FCFS use the order of the jobs, Job1, Job2, Job3, …
-
-You can implement the algorithms in your choice of data structures based on the program language of your choice. Note that you always try your best to give the most efficient program for each problem. The size of the input will be limited to be within 30 jobs.
-
-# Submission Instructions:
-
-- turn in the following on @blackboard.cpp.edu after the completion of all three parts, part 1, part 2 and part 3
-  > (1) four program (your choice of programming language with proper documentation) files
-  >
-  > (2) this document (complete all the answers)
 
 ---
 
