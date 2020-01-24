@@ -56,7 +56,7 @@
 > - read next page
 
 ## Run File
-To run the file, you can use the *run.sh* with proper permissions set.
+To run the program, you can use the *run.sh* with proper permissions set.
 OR
 ```javac <filename>.java```
 ```java <filename> <page_frame_size>```
